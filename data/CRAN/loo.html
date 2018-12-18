@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package loo</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
+Models [R package loo version 2.0.0]" />
+<meta name="citation_author1" content="Aki Vehtari" />
+<meta name="citation_author2" content="Andrew Gelman" />
+<meta name="citation_author3" content="Jonah Gabry" />
+<meta name="citation_author4" content="Yuling Yao" />
+<meta name="citation_publication_date.Published" content="2018-04-11" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=loo" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=loo" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>loo: Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
+Models</h2>
+<p>Efficient approximate leave-one-out cross-validation (LOO)
+    for Bayesian models fit using Markov chain Monte Carlo. The approximation
+    uses Pareto smoothed importance sampling (PSIS), a new procedure for
+    regularizing importance weights. As a byproduct of the calculations, we also
+    obtain approximate standard errors for estimated predictive errors and for
+    the comparison of predictive errors between models. The package also 
+    provides methods for using stacking and other model weighting techniques 
+    to average Bayesian predictive distributions.</p>
+<table summary="Package loo summary">
+<tr>
+<td>Version:</td>
+<td>2.0.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.1.2)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>graphics, <a href="../matrixStats/index.html">matrixStats</a> (&ge; 0.52), parallel, stats</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../bayesplot/index.html">bayesplot</a> (&ge; 1.5.0), <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../rstan/index.html">rstan</a>, <a href="../rstanarm/index.html">rstanarm</a>, <a href="../rstantools/index.html">rstantools</a>, <a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-04-11</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Aki Vehtari [aut],
+  Andrew Gelman [aut],
+  Jonah Gabry [cre, aut],
+  Yuling Yao [aut],
+  Juho Piironen [ctb],
+  Ben Goodrich [ctb]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Jonah Gabry  &#x3c;&#x6a;&#x73;&#x67;&#x32;&#x32;&#x30;&#x31;&#x20;&#x61;&#x74;&#x20;&#x63;&#x6f;&#x6c;&#x75;&#x6d;&#x62;&#x69;&#x61;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/stan-dev/loo/issues">https://github.com/stan-dev/loo/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL (&ge; 3)</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://mc-stan.org">http://mc-stan.org</a>, <a href="http://discourse.mc-stan.org">http://discourse.mc-stan.org</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">loo citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_loo.html">loo results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package loo downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="loo.pdf"> loo.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/loo2-example.html">Using the loo package</a><br/>
+<a href="vignettes/loo2-weights.html">Bayesian Stacking and Pseudo-BMA weights</a><br/>
+<a href="vignettes/loo2-with-rstan.html">Writing Stan programs for use with the loo package</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/loo_2.0.0.tar.gz"> loo_2.0.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/loo_2.0.0.zip">loo_2.0.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/loo_2.0.0.zip">loo_2.0.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/loo_2.0.0.zip">loo_2.0.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/loo_2.0.0.tgz">loo_2.0.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/loo_2.0.0.tgz">loo_2.0.0.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/loo"> loo archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package loo reverse dependencies">
+<tr>
+<td>Reverse&nbsp;depends:</td>
+<td><a href="../evidence/index.html">evidence</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../BAMBI/index.html">BAMBI</a>, <a href="../bayesdfa/index.html">bayesdfa</a>, <a href="../beanz/index.html">beanz</a>, <a href="../blavaan/index.html">blavaan</a>, <a href="../BMSC/index.html">BMSC</a>, <a href="../brms/index.html">brms</a>, <a href="../glmmfields/index.html">glmmfields</a>, <a href="../hBayesDM/index.html">hBayesDM</a>, <a href="../MixSIAR/index.html">MixSIAR</a>, <a href="../projpred/index.html">projpred</a>, <a href="../psycho/index.html">psycho</a>, <a href="../rstan/index.html">rstan</a>, <a href="../rstanarm/index.html">rstanarm</a>, <a href="../rstansim/index.html">rstansim</a>, <a href="../trialr/index.html">trialr</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../bayesplot/index.html">bayesplot</a>, <a href="../CopulaDTA/index.html">CopulaDTA</a>, <a href="../idealstan/index.html">idealstan</a>, <a href="../rstantools/index.html">rstantools</a>, <a href="../sjstats/index.html">sjstats</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=loo"><samp>https://CRAN.R-project.org/package=loo</samp></a>
+to link to this page.</p>
+</body>
+</html>

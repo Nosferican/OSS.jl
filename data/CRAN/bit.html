@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package bit</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>bit: A Class for Vectors of 1-Bit Booleans</h2>
+<p>True boolean datatype (no NAs), 
+  coercion from and to logicals, integers and integer subscripts; 
+  fast boolean operators and fast summary statistics. 
+  With 'bit' vectors you can store true binary booleans {FALSE,TRUE} at the 
+  expense of 1 bit only, on a 32 bit architecture this means factor 32 less 
+  RAM and ~ factor 32 more speed on boolean operations. Due to overhead of 
+  R calls, actual speed gain depends on the size of the vector: expect gains 
+  for vectors of size &gt; 10000 elements. Even for one-time boolean operations 
+  it can pay-off to convert to bit, the pay-off is obvious, when such 
+  components are used more than once. 
+  Reading from and writing to bit is approximately as fast as accessing 
+  standard logicals - mostly due to R's time for memory allocation. The package 
+  allows to work with pre-allocated memory for return values by calling .Call() 
+  directly: when evaluating the speed of C-access with pre-allocated vector 
+  memory, coping from bit to logical requires only 70% of the time for copying 
+  from logical to logical; and copying from logical to bit comes at a 
+  performance penalty of 150%. the package now contains further classes for 
+  representing logical selections: 'bitwhich' for very skewed selections and 
+  'ri' for selecting ranges of values for chunked processing. All three index 
+  classes can be used for subsetting 'ff' objects (ff-2.1-0 and higher).</p>
+<table summary="Package bit summary">
+<tr>
+<td>Version:</td>
+<td>1.1-14</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 2.9.2)</td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-05-29</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Jens Oehlschlägel</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Jens Oehlschlägel  &#x3c;&#x4a;&#x65;&#x6e;&#x73;&#x2e;&#x4f;&#x65;&#x68;&#x6c;&#x73;&#x63;&#x68;&#x6c;&#x61;&#x65;&#x67;&#x65;&#x6c;&#x20;&#x61;&#x74;&#x20;&#x74;&#x72;&#x75;&#x65;&#x63;&#x6c;&#x75;&#x73;&#x74;&#x65;&#x72;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://ff.r-forge.r-project.org/">http://ff.r-forge.r-project.org/</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_bit.html">bit results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package bit downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="bit.pdf"> bit.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/bit_1.1-14.tar.gz"> bit_1.1-14.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/bit_1.1-14.zip">bit_1.1-14.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/bit_1.1-14.zip">bit_1.1-14.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/bit_1.1-14.zip">bit_1.1-14.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/bit_1.1-14.tgz">bit_1.1-14.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/bit_1.1-14.tgz">bit_1.1-14.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/bit"> bit archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package bit reverse dependencies">
+<tr>
+<td>Reverse&nbsp;depends:</td>
+<td><a href="../bit64/index.html">bit64</a>, <a href="../ff/index.html">ff</a>, <a href="../NEff/index.html">NEff</a>, <a href="../tabplot/index.html">tabplot</a>, <a href="../TOC/index.html">TOC</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../BGData/index.html">BGData</a>, <a href="../biogram/index.html">biogram</a>, <a href="../Cyclops/index.html">Cyclops</a>, <a href="../DatabaseConnector/index.html">DatabaseConnector</a>, <a href="../ETLUtils/index.html">ETLUtils</a>, <a href="../ffbase/index.html">ffbase</a>, <a href="../FLightR/index.html">FLightR</a>, <a href="../marinespeed/index.html">marinespeed</a>, <a href="../observer/index.html">observer</a>, <a href="../SpaDES.tools/index.html">SpaDES.tools</a>, <a href="../Stack/index.html">Stack</a>, <a href="../symDMatrix/index.html">symDMatrix</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../bamlss/index.html">bamlss</a>, <a href="../checkmate/index.html">checkmate</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=bit"><samp>https://CRAN.R-project.org/package=bit</samp></a>
+to link to this page.</p>
+</body>
+</html>

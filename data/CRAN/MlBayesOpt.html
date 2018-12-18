@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package MlBayesOpt</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Hyper Parameter Tuning for Machine Learning, Using Bayesian
+Optimization [R package MlBayesOpt version 0.3.3]" />
+<meta name="citation_author" content="Yuya Matsumura" />
+<meta name="citation_publication_date.Published" content="2017-10-23" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=MlBayesOpt" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=MlBayesOpt" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>MlBayesOpt: Hyper Parameter Tuning for Machine Learning, Using Bayesian
+Optimization</h2>
+<p>Hyper parameter tuning using Bayesian
+    optimization (Shahriari et al. &lt;<a href="https://doi.org/10.1109/JPROC.2015.2494218">doi:10.1109/JPROC.2015.2494218</a>&gt;) for support vector machine,
+    random forest, and extreme gradient boosting (Chen &amp; Guestrin (2016) &lt;<a href="https://doi.org/10.1145/2939672.2939785">doi:10.1145/2939672.2939785</a>&gt;). 
+    Unlike already existing packages (e.g. 'mlr', 'rBayesianOptimization', or 'xgboost'), there is no need to change in accordance with the package or method of machine learning.
+    You just prepare a data frame with feature vectors and the label column that has any class ('character', 'factor', 'integer').
+    Moreover, to write a optimization function, you have only to specify the data and the column name of the label to classify.</p>
+<table summary="Package MlBayesOpt summary">
+<tr>
+<td>Version:</td>
+<td>0.3.3</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.1.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../xgboost/index.html">xgboost</a> (&ge; 0.6-4), <a href="../Matrix/index.html">Matrix</a>, <a href="../rBayesianOptimization/index.html">rBayesianOptimization</a> (&ge; 1.1.0), <a href="../e1071/index.html">e1071</a> (&ge; 1.6-8), <a href="../ranger/index.html">ranger</a> (&ge; 0.8.0), <a href="../data.table/index.html">data.table</a> (&ge; 1.9.6), <a href="../foreach/index.html">foreach</a>, <a href="../rlang/index.html">rlang</a> (&ge; 0.1.2), <a href="../dplyr/index.html">dplyr</a> (&ge; 0.7.0)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../MASS/index.html">MASS</a>, <a href="../testthat/index.html">testthat</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2017-10-23</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Yuya Matsumura [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Yuya Matsumura  &#x3c;&#x6d;&#x61;&#x74;&#x74;&#x75;&#x2e;&#x79;&#x75;&#x79;&#x61;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/ymattu/MlBayesOpt/issues">https://github.com/ymattu/MlBayesOpt/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/ymattu/MlBayesOpt">https://github.com/ymattu/MlBayesOpt</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="README.html">README</a> <a href="news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_MlBayesOpt.html">MlBayesOpt results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package MlBayesOpt downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="MlBayesOpt.pdf"> MlBayesOpt.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/MlBayesOpt.html">R package to tune parameters for machine learning, using bayesian optimization with gaussian process</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/MlBayesOpt_0.3.3.tar.gz"> MlBayesOpt_0.3.3.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/MlBayesOpt_0.3.3.zip">MlBayesOpt_0.3.3.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/MlBayesOpt_0.3.3.zip">MlBayesOpt_0.3.3.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/MlBayesOpt_0.3.3.zip">MlBayesOpt_0.3.3.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/MlBayesOpt_0.3.3.tgz">MlBayesOpt_0.3.3.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/MlBayesOpt_0.3.3.tgz">MlBayesOpt_0.3.3.tgz</a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=MlBayesOpt"><samp>https://CRAN.R-project.org/package=MlBayesOpt</samp></a>
+to link to this page.</p>
+</body>
+</html>

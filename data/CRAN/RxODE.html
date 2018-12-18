@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package RxODE</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Facilities for Simulating from ODE-Based Models [R package RxODE version 0.8.0-9]" />
+<meta name="citation_author1" content="Matthew L. Fidler" />
+<meta name="citation_author2" content="Melissa Hallow" />
+<meta name="citation_author3" content="Wenping Wang" />
+<meta name="citation_publication_date.Published" content="2018-12-10" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=RxODE" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=RxODE" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>RxODE: Facilities for Simulating from ODE-Based Models</h2>
+<p>Facilities for running simulations from ordinary
+    differential equation (ODE) models, such as pharmacometrics and other
+    compartmental models.  A compilation manager translates the ODE model
+    into C, compiles it, and dynamically loads the object code into R for
+    improved computational efficiency.  An event table object facilitates
+    the specification of complex dosing regimens (optional) and sampling
+    schedules.  NB: The use of this package requires both C and
+    Fortran compilers, for details on their use with R please see
+    Section 6.3, Appendix A, and Appendix D in the "R Administration and
+    Installation" manual. Also the code is mostly released under GPL.  The
+    VODE and LSODA are in the public domain.  The information is available
+    in the inst/COPYRIGHTS.</p>
+<table summary="Package RxODE summary">
+<tr>
+<td>Version:</td>
+<td>0.8.0-9</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.3.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>utils, methods, <a href="../digest/index.html">digest</a>, <a href="../rex/index.html">rex</a>, <a href="../dparser/index.html">dparser</a> (&ge; 0.1.8), <a href="../brew/index.html">brew</a>, <a href="../memoise/index.html">memoise</a>, <a href="../magrittr/index.html">magrittr</a>, <a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.3), <a href="../inline/index.html">inline</a>, <a href="../Matrix/index.html">Matrix</a>, <a href="../R.utils/index.html">R.utils</a>, <a href="../PreciseSums/index.html">PreciseSums</a> (&ge; 0.3), <a href="../n1qn1/index.html">n1qn1</a> (&ge; 6.0.1-2), <a href="../mvnfast/index.html">mvnfast</a>, <a href="../cli/index.html">cli</a>, <a href="../crayon/index.html">crayon</a></td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../dparser/index.html">dparser</a> (&ge; 0.1.8), <a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.3), <a href="../RcppArmadillo/index.html">RcppArmadillo</a> (&ge;
+0.5.600.2.0), <a href="../PreciseSums/index.html">PreciseSums</a> (&ge; 0.3)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../nlme/index.html">nlme</a>, <a href="../shiny/index.html">shiny</a>, tcltk, <a href="../testthat/index.html">testthat</a>, <a href="../devtools/index.html">devtools</a>, <a href="../covr/index.html">covr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../SnakeCharmR/index.html">SnakeCharmR</a>, <a href="../rSymPy/index.html">rSymPy</a>, <a href="../dplyr/index.html">dplyr</a>, <a href="../tidyr/index.html">tidyr</a>, <a href="../tibble/index.html">tibble</a>, <a href="../curl/index.html">curl</a>, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../gridExtra/index.html">gridExtra</a>, <a href="../microbenchmark/index.html">microbenchmark</a>, <a href="../scales/index.html">scales</a>, <a href="../stringi/index.html">stringi</a>, <a href="../htmltools/index.html">htmltools</a>, <a href="../reticulate/index.html">reticulate</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-12-10</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Matthew L. Fidler [aut],
+  Melissa Hallow [aut],
+  Wenping Wang [aut, cre],
+  Zufar Mulyukov [ctb],
+  Justin Wilkins [ctb],
+  Simon Frost [ctb],
+  Heng Li [ctb],
+  Yu Feng [ctb],
+  Alan Hindmarsh [ctb],
+  Linda Petzold [ctb],
+  Ernst Hairer [ctb],
+  Gerhard Wanner [ctb],
+  Johannes Pfeifer [ctb],
+  Robert B. Schnabel [ctb],
+  Elizabeth Eskow [ctb],
+  J Colinge [ctb],
+  Hadley Wickham [ctb],
+  G Grothendieck [ctb],
+  Robert Gentleman [ctb],
+  Ross Ihaka [ctb],
+  R core team [cph],
+  odepack authors [cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Wenping Wang  &#x3c;&#x77;&#x77;&#x61;&#x6e;&#x67;&#x38;&#x31;&#x39;&#x38;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/nlmixrdevelopment/RxODE/issues">https://github.com/nlmixrdevelopment/RxODE/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>Copyright:</td>
+<td>see file <a href="COPYRIGHTS">COPYRIGHTS</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://www.r-project.org">https://www.r-project.org</a>,
+<a href="https://github.com/nlmixrdevelopment/RxODE">https://github.com/nlmixrdevelopment/RxODE</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">RxODE citation info</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_RxODE.html">RxODE results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package RxODE downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="RxODE.pdf"> RxODE.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/RxODE-covariates.html">RxODE Covariates</a><br/>
+<a href="vignettes/RxODE-data-frame.html">RxODE data frames</a><br/>
+<a href="vignettes/RxODE-events.html">RxODE Event Coding</a><br/>
+<a href="vignettes/RxODE-intro.html">Introduction to RxODE</a><br/>
+<a href="vignettes/RxODE-mix-lin-ode.html">RxODE Solved Systems and ODEs</a><br/>
+<a href="vignettes/RxODE-shiny.html">RxODE and Shiny</a><br/>
+<a href="vignettes/RxODE-sim-var.html">RxODE Simulation</a><br/>
+<a href="vignettes/RxODE-stiff.html">RxODE Jacobian specification and Stiff Systems</a><br/>
+<a href="vignettes/RxODE-syntax.html">RxODE ODE solving syntax</a><br/>
+<a href="vignettes/RxODE-transit-compartments.html">RxODE Transit Compartment Models</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/RxODE_0.8.0-9.tar.gz"> RxODE_0.8.0-9.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/RxODE_0.8.0-9.zip">RxODE_0.8.0-9.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/RxODE_0.8.0-9.zip">RxODE_0.8.0-9.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/RxODE_0.8.0-9.zip">RxODE_0.8.0-9.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/RxODE_0.8.0-9.tgz">RxODE_0.8.0-9.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/RxODE_0.8.0-9.tgz">RxODE_0.8.0-9.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/RxODE"> RxODE archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package RxODE reverse dependencies">
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../nlmixr/index.html">nlmixr</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=RxODE"><samp>https://CRAN.R-project.org/package=RxODE</samp></a>
+to link to this page.</p>
+</body>
+</html>

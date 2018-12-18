@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package mice</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Multivariate Imputation by Chained Equations [R package mice version 3.3.0]" />
+<meta name="citation_author1" content="Stef van Buuren" />
+<meta name="citation_author2" content="Karin Groothuis-Oudshoorn" />
+<meta name="citation_publication_date.Published" content="2018-07-27" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=mice" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=mice" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>mice: Multivariate Imputation by Chained Equations</h2>
+<p>Multiple imputation using Fully Conditional Specification (FCS)
+    implemented by the MICE algorithm as described in Van Buuren and
+    Groothuis-Oudshoorn (2011) &lt;<a href="https://doi.org/10.18637/jss.v045.i03">doi:10.18637/jss.v045.i03</a>&gt;. Each variable has
+    its own imputation model. Built-in imputation models are provided for
+    continuous data (predictive mean matching, normal), binary data (logistic
+    regression), unordered categorical data (polytomous logistic regression)
+    and ordered categorical data (proportional odds). MICE can also impute
+    continuous two-level data (normal model, pan, second-level variables).
+    Passive imputation can be used to maintain consistency between variables.
+    Various diagnostic plots are available to inspect the quality of the
+    imputations.</p>
+<table summary="Package mice summary">
+<tr>
+<td>Version:</td>
+<td>3.3.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>methods, R (&ge; 2.10.0), <a href="../lattice/index.html">lattice</a></td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../broom/index.html">broom</a>, <a href="../dplyr/index.html">dplyr</a>, grDevices, graphics, <a href="../MASS/index.html">MASS</a>, <a href="../mitml/index.html">mitml</a>, <a href="../nnet/index.html">nnet</a>, parallel, <a href="../Rcpp/index.html">Rcpp</a>, <a href="../rlang/index.html">rlang</a>, <a href="../rpart/index.html">rpart</a>, splines, stats, <a href="../survival/index.html">survival</a>, utils</td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../AGD/index.html">AGD</a>, <a href="../CALIBERrfimpute/index.html">CALIBERrfimpute</a>, <a href="../DPpackage/index.html">DPpackage</a>, <a href="../gamlss/index.html">gamlss</a>, <a href="../lme4/index.html">lme4</a>, <a href="../mitools/index.html">mitools</a>, <a href="../nlme/index.html">nlme</a>, <a href="../pan/index.html">pan</a>, <a href="../randomForest/index.html">randomForest</a>, <a href="../Zelig/index.html">Zelig</a>, <a href="../BSDA/index.html">BSDA</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../testthat/index.html">testthat</a>, <a href="../HSAUR3/index.html">HSAUR3</a>, <a href="../micemd/index.html">micemd</a>, <a href="../miceadds/index.html">miceadds</a>, <a href="../tidyr/index.html">tidyr</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-07-27</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Stef van Buuren [aut, cre],
+  Karin Groothuis-Oudshoorn [aut],
+  Alexander Robitzsch [ctb],
+  Gerko Vink [ctb],
+  Lisa Doove [ctb],
+  Shahab Jolani [ctb],
+  Rianne Schouten [ctb],
+  Philipp Gaffert [ctb],
+  Florian Meinfelder [ctb],
+  Bernie Gray [ctb]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Stef van Buuren  &#x3c;&#x73;&#x74;&#x65;&#x66;&#x2e;&#x76;&#x61;&#x6e;&#x62;&#x75;&#x75;&#x72;&#x65;&#x6e;&#x20;&#x61;&#x74;&#x20;&#x74;&#x6e;&#x6f;&#x2e;&#x6e;&#x6c;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/stefvanbuuren/mice/issues">https://github.com/stefvanbuuren/mice/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://stefvanbuuren.github.io/mice/">http://stefvanbuuren.github.io/mice/</a> , <a href="http://www.stefvanbuuren.nl">http://www.stefvanbuuren.nl</a>
+, <a href="http://www.multiple-imputation.com">http://www.multiple-imputation.com</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">mice citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/MissingData.html">MissingData</a>, <a href="../../views/Multivariate.html">Multivariate</a>, <a href="../../views/OfficialStatistics.html">OfficialStatistics</a>, <a href="../../views/SocialSciences.html">SocialSciences</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_mice.html">mice results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package mice downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="mice.pdf"> mice.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/mice_3.3.0.tar.gz"> mice_3.3.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/mice_3.3.0.zip">mice_3.3.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/mice_3.3.0.zip">mice_3.3.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/mice_3.3.0.zip">mice_3.3.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/mice_3.3.0.tgz">mice_3.3.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/mice_3.3.0.tgz">mice_3.3.0.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/mice"> mice archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package mice reverse dependencies">
+<tr>
+<td>Reverse&nbsp;depends:</td>
+<td><a href="../accelmissing/index.html">accelmissing</a>, <a href="../CALIBERrfimpute/index.html">CALIBERrfimpute</a>, <a href="../genpathmox/index.html">genpathmox</a>, <a href="../HardyWeinberg/index.html">HardyWeinberg</a>, <a href="../hot.deck/index.html">hot.deck</a>, <a href="../ImputeRobust/index.html">ImputeRobust</a>, <a href="../miceadds/index.html">miceadds</a>, <a href="../miceExt/index.html">miceExt</a>, <a href="../micemd/index.html">micemd</a>, <a href="../miceMNAR/index.html">miceMNAR</a>, <a href="../MIRL/index.html">MIRL</a>, <a href="../roughrf/index.html">roughrf</a>, <a href="../smartdata/index.html">smartdata</a>, <a href="../TestDataImputation/index.html">TestDataImputation</a>, <a href="../weights/index.html">weights</a>, <a href="../weightTAPSPACK/index.html">weightTAPSPACK</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../BaM/index.html">BaM</a>, <a href="../dlookr/index.html">dlookr</a>, <a href="../dynr/index.html">dynr</a>, <a href="../finalfit/index.html">finalfit</a>, <a href="../hmi/index.html">hmi</a>, <a href="../JWileymisc/index.html">JWileymisc</a>, <a href="../logistf/index.html">logistf</a>, <a href="../missMDA/index.html">missMDA</a>, <a href="../MRPC/index.html">MRPC</a>, <a href="../PathSelectMP/index.html">PathSelectMP</a>, <a href="../Qtools/index.html">Qtools</a>, <a href="../RegularizedSCA/index.html">RegularizedSCA</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../BaBooN/index.html">BaBooN</a>, <a href="../brms/index.html">brms</a>, <a href="../bucky/index.html">bucky</a>, <a href="../cati/index.html">cati</a>, <a href="../cobalt/index.html">cobalt</a>, <a href="../hdnom/index.html">hdnom</a>, <a href="../Hmisc/index.html">Hmisc</a>, <a href="../HSAUR3/index.html">HSAUR3</a>, <a href="../Lambda4/index.html">Lambda4</a>, <a href="../lavaan.survey/index.html">lavaan.survey</a>, <a href="../LSAmitR/index.html">LSAmitR</a>, <a href="../mdmb/index.html">mdmb</a>, <a href="../medflex/index.html">medflex</a>, <a href="../miceFast/index.html">miceFast</a>, <a href="../midastouch/index.html">midastouch</a>, <a href="../MissingDataGUI/index.html">MissingDataGUI</a>, <a href="../mitml/index.html">mitml</a>, <a href="../NNLM/index.html">NNLM</a>, <a href="../rattle/index.html">rattle</a>, <a href="../semTools/index.html">semTools</a>, <a href="../sjmisc/index.html">sjmisc</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=mice"><samp>https://CRAN.R-project.org/package=mice</samp></a>
+to link to this page.</p>
+</body>
+</html>

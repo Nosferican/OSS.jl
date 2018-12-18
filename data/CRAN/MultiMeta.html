@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package MultiMeta</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>MultiMeta: Meta-analysis of Multivariate Genome Wide Association Studies</h2>
+<p>Allows running a meta-analysis of multivariate Genome Wide
+    Association Studies (GWAS) and easily visualizing results through custom
+    plotting functions. The multivariate setting implies that results for each
+    single nucleotide polymorphism (SNP) include several effect sizes (also
+    known as "beta coefficients", one for each trait), as well as related
+    variance values, but also covariance between the betas. The main goal of
+    the package is to provide combined beta coefficients across different
+    cohorts, together with the combined variance/covariance matrix. The method
+    is inverse-variance based, thus each beta is weighted by the inverse of its
+    variance-covariance matrix, before taking the average across all betas. The
+    default options of the main function \code{multi_meta} will work with files
+    obtained from GEMMA multivariate option for GWAS (Zhou &amp; Stephens, 2014).
+    It will work with any other output, as soon as columns are formatted to
+    have the according names. The package also provides several plotting
+    functions for QQ-plots, Manhattan Plots and custom summary plots.</p>
+<table summary="Package MultiMeta summary">
+<tr>
+<td>Version:</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td><a href="../gtable/index.html">gtable</a>, grid</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../mvtnorm/index.html">mvtnorm</a>, <a href="../expm/index.html">expm</a>, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../reshape2/index.html">reshape2</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2015-01-15</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Dragana Vuckovic</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Dragana Vuckovic  &#x3c;&#x64;&#x72;&#x61;&#x67;&#x61;&#x6e;&#x61;&#x2e;&#x76;&#x75;&#x63;&#x6b;&#x6f;&#x76;&#x69;&#x63;&#x20;&#x61;&#x74;&#x20;&#x62;&#x75;&#x72;&#x6c;&#x6f;&#x2e;&#x74;&#x72;&#x69;&#x65;&#x73;&#x74;&#x65;&#x2e;&#x69;&#x74;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/MetaAnalysis.html">MetaAnalysis</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_MultiMeta.html">MultiMeta results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package MultiMeta downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="MultiMeta.pdf"> MultiMeta.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/MultiMeta_0.1.tar.gz"> MultiMeta_0.1.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/MultiMeta_0.1.zip">MultiMeta_0.1.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/MultiMeta_0.1.zip">MultiMeta_0.1.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/MultiMeta_0.1.zip">MultiMeta_0.1.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/MultiMeta_0.1.tgz">MultiMeta_0.1.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/MultiMeta_0.1.tgz">MultiMeta_0.1.tgz</a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=MultiMeta"><samp>https://CRAN.R-project.org/package=MultiMeta</samp></a>
+to link to this page.</p>
+</body>
+</html>

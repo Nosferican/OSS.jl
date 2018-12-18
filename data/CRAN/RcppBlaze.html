@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package RcppBlaze</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>RcppBlaze: 'Rcpp' Integration for the 'Blaze' High-Performance C++ Math
+Library</h2>
+<p>'Blaze' is an open-source, high-performance C++ math library
+    for dense and sparse arithmetic. With its state-of-the-art Smart Expression
+    Template implementation 'Blaze' combines the elegance and ease of use of a
+    domain-specific language with 'HPC'-grade performance, making it one of the most
+    intuitive and fastest C++ math libraries available. The 'Blaze' library offers:
+    - high performance through the integration of 'BLAS' libraries and manually
+    tuned 'HPC' math kernels - vectorization by 'SSE', 'SSE2', 'SSE3', 'SSSE3', 'SSE4', 
+    'AVX', 'AVX2', 'AVX-512', 'FMA', and 'SVML' - parallel execution by 'OpenMP', C++11 
+    threads and 'Boost' threads ('Boost' threads are disabled in 'RcppBlaze') - the 
+    intuitive and easy to use API of a domain specific language - unified arithmetic 
+    with dense and sparse vectors and matrices - thoroughly tested matrix and vector 
+    arithmetic - completely portable, high quality C++ source code. The 'RcppBlaze' 
+    package includes the header files from the 'Blaze' library with disabling some 
+    functionalities related to link to the thread and system libraries which make 
+    'RcppBlaze' be a header-only library. Therefore, users do not need to install 
+    'Blaze' and the dependency 'Boost'. 'Blaze' is licensed under the New (Revised) 
+    BSD license, while 'RcppBlaze' (the 'Rcpp' bindings/bridge to 'Blaze') is licensed 
+    under the GNU GPL version 2 or later, as is the rest of 'Rcpp'. Note that since 
+    'Blaze' has committed to 'C++14' commit to 'C++14' which does not used by most R users
+    from version 3.0, we will use the version 2.6 of 'Blaze' which is 'C++98' compatible 
+    to support the most compilers and system.</p>
+<table summary="Package RcppBlaze summary">
+<tr>
+<td>Version:</td>
+<td>0.2.2</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.2)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>utils, <a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.11.0), <a href="../Matrix/index.html">Matrix</a> (&ge; 1.1-0)</td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a>, <a href="../BH/index.html">BH</a> (&ge; 1.54.0-2)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../RUnit/index.html">RUnit</a>, <a href="../pkgKitten/index.html">pkgKitten</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2017-10-09</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Ching-Chuan Chen, Klaus Iglberger, Georg Hager, Christian Godenschwager,
+    Tobias Scharpff, Dirk Eddelbuettel, Romain Francois, Douglas Bates</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Ching-Chuan Chen  &#x3c;&#x7a;&#x77;&#x31;&#x32;&#x33;&#x35;&#x36;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/Chingchuan-chen/RcppBlaze/issues">https://github.com/Chingchuan-chen/RcppBlaze/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/Chingchuan-chen/RcppBlaze">https://github.com/Chingchuan-chen/RcppBlaze</a>,
+<a href="https://bitbucket.org/blaze-lib/blaze">https://bitbucket.org/blaze-lib/blaze</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="README.html">README</a> <a href="news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_RcppBlaze.html">RcppBlaze results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package RcppBlaze downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="RcppBlaze.pdf"> RcppBlaze.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/RcppBlaze_0.2.2.tar.gz"> RcppBlaze_0.2.2.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/RcppBlaze_0.2.2.zip">RcppBlaze_0.2.2.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/RcppBlaze_0.2.2.zip">RcppBlaze_0.2.2.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/RcppBlaze_0.2.2.zip">RcppBlaze_0.2.2.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/RcppBlaze_0.2.2.tgz">RcppBlaze_0.2.2.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/RcppBlaze_0.2.2.tgz">RcppBlaze_0.2.2.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/RcppBlaze"> RcppBlaze archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=RcppBlaze"><samp>https://CRAN.R-project.org/package=RcppBlaze</samp></a>
+to link to this page.</p>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package codebook</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Automatic Codebooks from Survey Metadata Encoded in Attributes [R package codebook version 0.7.5]" />
+<meta name="citation_author" content="Ruben Arslan" />
+<meta name="citation_publication_date.Published" content="2018-12-04" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=codebook" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=codebook" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>codebook: Automatic Codebooks from Survey Metadata Encoded in Attributes</h2>
+<p>Easily automate the following tasks to describe data frames: 
+  summarise the distributions of scales and items graphically and using descriptive statistics,
+  compute reliabilities (internal consistencies, retest, multilevel) for psychological scales, 
+  combine this information with metadata (such as item labels and labelled values) that is derived from R attributes.
+  To do so, the package relies on 'rmarkdown' partials, so you can generate HTML, PDF, and Word documents. Codebooks
+  are also available as tables (CSV, Excel, etc.).
+  The metadata and codebooks are also available at your fingertips via RStudio Addins.</p>
+<table summary="Package codebook summary">
+<tr>
+<td>Version:</td>
+<td>0.7.5</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.1)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>stats, methods, graphics, utils, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../ggplot2/index.html">ggplot2</a> (&ge;
+2.0.0), <a href="../stringr/index.html">stringr</a>, <a href="../psych/index.html">psych</a>, <a href="../likert/index.html">likert</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rlang/index.html">rlang</a>, <a href="../dplyr/index.html">dplyr</a>, <a href="../tidyr/index.html">tidyr</a>, <a href="../pander/index.html">pander</a>, <a href="../skimr/index.html">skimr</a> (&ge; 1.0.2), <a href="../DT/index.html">DT</a>, <a href="../future/index.html">future</a>, <a href="../haven/index.html">haven</a> (&ge; 2.0.0), <a href="../tibble/index.html">tibble</a>, <a href="../purrr/index.html">purrr</a>, <a href="../htmltools/index.html">htmltools</a>, <a href="../labeling/index.html">labeling</a>, <a href="../labelled/index.html">labelled</a>, <a href="../rio/index.html">rio</a>, <a href="../shiny/index.html">shiny</a> (&ge; 0.13), <a href="../miniUI/index.html">miniUI</a> (&ge; 0.1.1), <a href="../rstudioapi/index.html">rstudioapi</a> (&ge; 0.5), <a href="../glue/index.html">glue</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a>, <a href="../shinytest/index.html">shinytest</a>, <a href="../lme4/index.html">lme4</a>, <a href="../roxygen2/index.html">roxygen2</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-12-04</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Ruben Arslan [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Ruben Arslan  &#x3c;&#x72;&#x75;&#x62;&#x65;&#x6e;&#x2e;&#x61;&#x72;&#x73;&#x6c;&#x61;&#x6e;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/rubenarslan/codebook/issues">https://github.com/rubenarslan/codebook/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/rubenarslan/codebook">https://github.com/rubenarslan/codebook</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Language:</td>
+<td>en_GB</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">codebook citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_codebook.html">codebook results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package codebook downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="codebook.pdf"> codebook.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/codebook.html">Example with metadata from formr.org</a><br/>
+<a href="vignettes/codebook_labelled_manual.html">Example with manual labelling</a><br/>
+<a href="vignettes/codebook_nested_scale.html">Example with nested scales</a><br/>
+<a href="vignettes/codebook_qualtrics.html">Example with Qualtrics dataset</a><br/>
+<a href="vignettes/codebook_sav.html">Example with SPSS dataset</a><br/>
+<a href="vignettes/codebook_tutorial.pdf">Example with SPSS dataset</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/codebook_0.7.5.tar.gz"> codebook_0.7.5.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/codebook_0.7.5.zip">codebook_0.7.5.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/codebook_0.7.5.zip">codebook_0.7.5.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/codebook_0.7.5.zip">codebook_0.7.5.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/codebook_0.7.5.tgz">codebook_0.7.5.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/codebook_0.7.5.tgz">codebook_0.7.5.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/codebook"> codebook archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=codebook"><samp>https://CRAN.R-project.org/package=codebook</samp></a>
+to link to this page.</p>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package nlmixr</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Nonlinear Mixed Effects Models in Population Pharmacokinetics
+and Pharmacodynamics [R package nlmixr version 1.0.0-7]" />
+<meta name="citation_author1" content="Matthew Fidler" />
+<meta name="citation_author2" content="Yuan Xiong" />
+<meta name="citation_author3" content="Rik Schoemaker" />
+<meta name="citation_author4" content="Justin Wilkins" />
+<meta name="citation_author5" content="Mirjam Trame" />
+<meta name="citation_author6" content="Teun Post" />
+<meta name="citation_author7" content="Wenping Wang" />
+<meta name="citation_publication_date.Published" content="2018-09-23" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=nlmixr" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=nlmixr" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>nlmixr: Nonlinear Mixed Effects Models in Population Pharmacokinetics
+and Pharmacodynamics</h2>
+<p>Fit and compare nonlinear mixed-effects models in differential
+    equations with flexible dosing information commonly seen in pharmacokinetics
+    and pharmacodynamics (Almquist, Leander, and Jirstrand 2015 
+    &lt;<a href="https://doi.org/10.1007/s10928-015-9409-1">doi:10.1007/s10928-015-9409-1</a>&gt;). Differential equation solving is 
+    by compiled C code provided in the 'RxODE' package
+    (Wang, Hallow, and James 2015 &lt;<a href="https://doi.org/10.1002/psp4.12052">doi:10.1002/psp4.12052</a>&gt;).</p>
+<table summary="Package nlmixr summary">
+<tr>
+<td>Version:</td>
+<td>1.0.0-7</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.2)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.3), <a href="../brew/index.html">brew</a>, <a href="../lattice/index.html">lattice</a>, parallel, <a href="../lbfgs/index.html">lbfgs</a>, <a href="../dparser/index.html">dparser</a>, methods, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../memoise/index.html">memoise</a>, <a href="../rex/index.html">rex</a>, <a href="../minqa/index.html">minqa</a>, <a href="../Matrix/index.html">Matrix</a>, <a href="../numDeriv/index.html">numDeriv</a>, <a href="../R.utils/index.html">R.utils</a>, <a href="../n1qn1/index.html">n1qn1</a>, <a href="../PreciseSums/index.html">PreciseSums</a>, <a href="../fastGHQuad/index.html">fastGHQuad</a>, <a href="../crayon/index.html">crayon</a>, <a href="../cli/index.html">cli</a>, <a href="../RcppArmadillo/index.html">RcppArmadillo</a> (&ge; 0.5.600.2.0), <a href="../vpc/index.html">vpc</a> (&ge; 1.0.0), <a href="../RxODE/index.html">RxODE</a> (&ge;
+0.8.0-4), <a href="../nlme/index.html">nlme</a>, <a href="../magrittr/index.html">magrittr</a>, <a href="../tidyr/index.html">tidyr</a></td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../dparser/index.html">dparser</a> (&ge; 0.1.8), <a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.3), <a href="../RcppEigen/index.html">RcppEigen</a> (&ge;
+0.3.3.3.0), <a href="../StanHeaders/index.html">StanHeaders</a>, <a href="../BH/index.html">BH</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../dplyr/index.html">dplyr</a>, <a href="../data.table/index.html">data.table</a>, <a href="../lbfgsb3/index.html">lbfgsb3</a>, <a href="../testthat/index.html">testthat</a>, <a href="../madness/index.html">madness</a>, <a href="../devtools/index.html">devtools</a>, <a href="../expm/index.html">expm</a>, <a href="../matrixcalc/index.html">matrixcalc</a>, <a href="../reshape2/index.html">reshape2</a>, <a href="../nloptr/index.html">nloptr</a>, <a href="../ucminf/index.html">ucminf</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-09-23</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Matthew Fidler [aut],
+  Yuan Xiong [aut],
+  Rik Schoemaker [aut],
+  Justin Wilkins [aut],
+  Mirjam Trame [aut],
+  Teun Post [aut],
+  Robert Leary [ctb],
+  Wenping Wang [aut, cre],
+  Hadley Wickham [ctb],
+  Dirk Eddelbuettel [cph],
+  David Ardia [cph],
+  Katharine Mullen [cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Wenping Wang  &#x3c;&#x77;&#x77;&#x61;&#x6e;&#x67;&#x38;&#x31;&#x39;&#x38;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/nlmixrdevelopment/nlmixr">https://github.com/nlmixrdevelopment/nlmixr</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_nlmixr.html">nlmixr results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package nlmixr downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="nlmixr.pdf"> nlmixr.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/installing_nlmixr.html">Installing nlmixr</a><br/>
+<a href="vignettes/running_nlmixr.html">Running PK models with nlmixr</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/nlmixr_1.0.0-7.tar.gz"> nlmixr_1.0.0-7.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/nlmixr_1.0.0-7.zip">nlmixr_1.0.0-7.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/nlmixr_1.0.0-7.zip">nlmixr_1.0.0-7.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/nlmixr_1.0.0-7.zip">nlmixr_1.0.0-7.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/nlmixr_1.0.0-7.tgz">nlmixr_1.0.0-7.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/nlmixr_1.0.0-7.tgz">nlmixr_1.0.0-7.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/nlmixr"> nlmixr archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=nlmixr"><samp>https://CRAN.R-project.org/package=nlmixr</samp></a>
+to link to this page.</p>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package BioGeoBEARS</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="BioGeography with Bayesian (and Likelihood) Evolutionary
+Analysis in R Scripts [R package BioGeoBEARS version 0.2.1]" />
+<meta name="citation_author" content="Nicholas J. Matzke" />
+<meta name="citation_publication_date.Published" content="2014-01-02" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=BioGeoBEARS" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=BioGeoBEARS" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>BioGeoBEARS: BioGeography with Bayesian (and Likelihood) Evolutionary
+Analysis in R Scripts</h2>
+<p>BioGeoBEARS allows probabilistic inference of both historical biogeography (ancestral geographic ranges on a phylogeny) as well as comparison of different models of range evolution.  It reproduces the model available in LAGRANGE (Ree and Smith 2008), as well as making available numerous additional models. For example, LAGRANGE as typically run has two free parameters, d (dispersal rate, i.e. the rate of range addition along a phylogenetic branch) and e (extinction rate, really the rate of local range loss along a phylogenetic branch). LAGRANGE also has a fixed cladogenic model which gives equal probability to a number of allowed range inheritance events, e.g.: (1) vicariance, (2) a new species starts in a subset of the ancestral range, (3) the ancestral range is copied to both species; in all cases, at least one species must have a starting range of size 1.  LAGRANGE assigns equal probability to each of these events, and zero probability to other events.  BioGeoBEARS adds an additional cladogenic event: founder-event speciation (the new species jumps to a range outside of the ancestral range), and also allows the relative weighting of the different sorts of events to be made into free parameters, allowing optimization and standard model choice procedures to pick the best model. The relative probability of different descendent range sizes is also parameterized and thus can also be specified or estimated.  The flexibility available in BioGeoBEARS also enables the natural incorporation of (1) imperfect detection of geographic ranges in the tips, and (2) inclusion of fossil geographic range data, when the fossils are tips on the phylogeny. Bayesian analysis has been implemented through use of the "LaplacesDemon" package, however this package is now maintained off of CRAN, so its usage is not formally included in BioGeoBEARS at the current time.  CITATION INFO: This package is the result of my Ph.D. research, please cite the package if you use it!  Type: citation(package="BioGeoBEARS") to get the citation information.</p>
+<table summary="Package BioGeoBEARS summary">
+<tr>
+<td>Version:</td>
+<td>0.2.1</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td><a href="../rexpokit/index.html">rexpokit</a>, <a href="../cladoRcpp/index.html">cladoRcpp</a>, <a href="../ape/index.html">ape</a>, <a href="../phylobase/index.html">phylobase</a>, methods</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../optimx/index.html">optimx</a>, <a href="../FD/index.html">FD</a>, parallel, <a href="../xtable/index.html">xtable</a>, <a href="../plotrix/index.html">plotrix</a>, <a href="../gdata/index.html">gdata</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2014-01-02</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Nicholas J. Matzke [aut, cre, cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Nicholas J. Matzke  &#x3c;&#x6d;&#x61;&#x74;&#x7a;&#x6b;&#x65;&#x20;&#x61;&#x74;&#x20;&#x62;&#x65;&#x72;&#x6b;&#x65;&#x6c;&#x65;&#x79;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://phylo.wikidot.com/biogeobears">http://phylo.wikidot.com/biogeobears</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">BioGeoBEARS citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/Phylogenetics.html">Phylogenetics</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_BioGeoBEARS.html">BioGeoBEARS results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package BioGeoBEARS downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="BioGeoBEARS.pdf"> BioGeoBEARS.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/BioGeoBEARS_0.2.1.tar.gz"> BioGeoBEARS_0.2.1.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/BioGeoBEARS_0.2.1.zip">BioGeoBEARS_0.2.1.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/BioGeoBEARS_0.2.1.zip">BioGeoBEARS_0.2.1.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/BioGeoBEARS_0.2.1.zip">BioGeoBEARS_0.2.1.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/BioGeoBEARS_0.2.1.tgz">BioGeoBEARS_0.2.1.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/BioGeoBEARS_0.2.1.tgz">BioGeoBEARS_0.2.1.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/BioGeoBEARS"> BioGeoBEARS archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package BioGeoBEARS reverse dependencies">
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../RPANDA/index.html">RPANDA</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=BioGeoBEARS"><samp>https://CRAN.R-project.org/package=BioGeoBEARS</samp></a>
+to link to this page.</p>
+</body>
+</html>

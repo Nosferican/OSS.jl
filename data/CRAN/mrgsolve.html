@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package mrgsolve</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Simulate from ODE-Based Population PK/PD and Systems
+Pharmacology Models [R package mrgsolve version 0.8.12]" />
+<meta name="citation_author" content="Kyle T Baron" />
+<meta name="citation_publication_date.Published" content="2018-04-27" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=mrgsolve" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=mrgsolve" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>mrgsolve: Simulate from ODE-Based Population PK/PD and Systems
+Pharmacology Models</h2>
+<p>Facilitates simulation from hierarchical, ordinary
+    differential equation (ODE) based models typically employed in drug development.
+    A model specification file is created consisting of R and C++ code that
+    is parsed, compiled, and dynamically loaded into the R session. Input data are
+    passed in and simulated data are returned as R objects.  A dosing event engine
+    allows interventions (bolus and infusion) to be managed separately from the 
+    model code. Differential equations are solved with the 'DLSODA' routine 
+    in 'ODEPACK' (&lt;<a href="https://computation.llnl.gov/casc/odepack/">https://computation.llnl.gov/casc/odepack/</a>&gt;). </p>
+<table summary="Package mrgsolve summary">
+<tr>
+<td>Version:</td>
+<td>0.8.12</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.1.2), methods</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.12), <a href="../dplyr/index.html">dplyr</a> (&ge; 0.7.4), <a href="../magrittr/index.html">magrittr</a> (&ge; 1.5), <a href="../RcppArmadillo/index.html">RcppArmadillo</a> (&ge; 0.7.900.2.0), <a href="../tibble/index.html">tibble</a> (&ge; 1.2), <a href="../rlang/index.html">rlang</a> (&ge;
+0.2.0)</td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.12), <a href="../RcppArmadillo/index.html">RcppArmadillo</a> (&ge; 0.7.900.2.0), <a href="../BH/index.html">BH</a> (&ge;
+1.62.0-1)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../lattice/index.html">lattice</a>, <a href="../testthat/index.html">testthat</a>, <a href="../xml2/index.html">xml2</a> (&ge; 1.2.0), <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-04-27</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Kyle T Baron [aut, cre],
+  Alan C Hindmarsh [ctb],
+  Linda R Petzold [ctb],
+  Bill Gillespie [ctb],
+  Charles Margossian [ctb],
+  Devin Pastoor [ctb],
+  Metrum Research Group LLC [cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Kyle T Baron   &#x3c;&#x6b;&#x79;&#x6c;&#x65;&#x62;&#x20;&#x61;&#x74;&#x20;&#x6d;&#x65;&#x74;&#x72;&#x75;&#x6d;&#x72;&#x67;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/metrumresearchgroup/mrgsolve/issues">https://github.com/metrumresearchgroup/mrgsolve/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>Copyright:</td>
+<td>Metrum Research Group, LLC 2018</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/metrumresearchgroup/mrgsolve">https://github.com/metrumresearchgroup/mrgsolve</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/Pharmacokinetics.html">Pharmacokinetics</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_mrgsolve.html">mrgsolve results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package mrgsolve downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="mrgsolve.pdf"> mrgsolve.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/mrgsolve_0.8.12.tar.gz"> mrgsolve_0.8.12.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/mrgsolve_0.8.12.zip">mrgsolve_0.8.12.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/mrgsolve_0.8.12.zip">mrgsolve_0.8.12.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/mrgsolve_0.8.12.zip">mrgsolve_0.8.12.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/mrgsolve_0.8.12.tgz">mrgsolve_0.8.12.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/mrgsolve_0.8.12.tgz">mrgsolve_0.8.12.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/mrgsolve"> mrgsolve archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=mrgsolve"><samp>https://CRAN.R-project.org/package=mrgsolve</samp></a>
+to link to this page.</p>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package future</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Unified Parallel and Distributed Processing in R for Everyone [R package future version 1.10.0]" />
+<meta name="citation_author" content="Henrik Bengtsson" />
+<meta name="citation_publication_date.Published" content="2018-10-17" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=future" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=future" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>future: Unified Parallel and Distributed Processing in R for Everyone</h2>
+<p>The purpose of this package is to provide a lightweight and
+    unified Future API for sequential and parallel processing of R
+    expression via futures.  The simplest way to evaluate an expression
+    in parallel is to use 'x %&lt;-% { expression }' with 'plan(multiprocess)'.
+    This package implements sequential, multicore, multisession, and
+    cluster futures.  With these, R expressions can be evaluated on the
+    local machine, in parallel a set of local machines, or distributed
+    on a mix of local and remote machines.
+    Extensions to this package implement additional backends for
+    processing futures via compute cluster schedulers etc.
+    Because of its unified API, there is no need to modify any code in order
+    switch from sequential on the local machine to, say, distributed
+    processing on a remote compute cluster.
+    Another strength of this package is that global variables and functions
+    are automatically identified and exported as needed, making it
+    straightforward to tweak existing code to make use of futures.</p>
+<table summary="Package future summary">
+<tr>
+<td>Version:</td>
+<td>1.10.0</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../digest/index.html">digest</a>, <a href="../globals/index.html">globals</a> (&ge; 0.12.1), <a href="../listenv/index.html">listenv</a> (&ge; 0.7.0), parallel, utils</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../R.rsp/index.html">R.rsp</a>, <a href="../markdown/index.html">markdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-10-17</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Henrik Bengtsson [aut, cre, cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Henrik Bengtsson  &#x3c;&#x68;&#x65;&#x6e;&#x72;&#x69;&#x6b;&#x62;&#x20;&#x61;&#x74;&#x20;&#x62;&#x72;&#x61;&#x6a;&#x75;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/HenrikBengtsson/future/issues">https://github.com/HenrikBengtsson/future/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/LGPL-2.1">LGPL-2.1</a> | <a href="../../licenses/LGPL-3">LGPL-3</a> [expanded from: LGPL (&ge; 2.1)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/HenrikBengtsson/future">https://github.com/HenrikBengtsson/future</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/HighPerformanceComputing.html">HighPerformanceComputing</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_future.html">future results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package future downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="future.pdf"> future.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/future-1-overview.html">A Future for R: A Comprehensive Overview</a><br/>
+<a href="vignettes/future-2-output.html">A Future for R: Outputting Text</a><br/>
+<a href="vignettes/future-3-topologies.html">A Future for R: Future Topologies</a><br/>
+<a href="vignettes/future-4-issues.html">A Future for R: Common Issues with Solutions</a><br/>
+<a href="vignettes/future-5-startup.html">A Future for R: Controlling Default Future Strategy</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/future_1.10.0.tar.gz"> future_1.10.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/future_1.10.0.zip">future_1.10.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/future_1.10.0.zip">future_1.10.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/future_1.10.0.zip">future_1.10.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/future_1.10.0.tgz">future_1.10.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/future_1.10.0.tgz">future_1.10.0.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/future"> future archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package future reverse dependencies">
+<tr>
+<td>Reverse&nbsp;depends:</td>
+<td><a href="../doFuture/index.html">doFuture</a>, <a href="../furrr/index.html">furrr</a>, <a href="../future.apply/index.html">future.apply</a>, <a href="../future.BatchJobs/index.html">future.BatchJobs</a>, <a href="../future.batchtools/index.html">future.batchtools</a>, <a href="../future.callr/index.html">future.callr</a>, <a href="../pbmcapply/index.html">pbmcapply</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../aroma.affymetrix/index.html">aroma.affymetrix</a>, <a href="../aroma.core/index.html">aroma.core</a>, <a href="../civis/index.html">civis</a>, <a href="../codebook/index.html">codebook</a>, <a href="../drtmle/index.html">drtmle</a>, <a href="../FAMoS/index.html">FAMoS</a>, <a href="../fiery/index.html">fiery</a>, <a href="../googleComputeEngineR/index.html">googleComputeEngineR</a>, <a href="../greta/index.html">greta</a>, <a href="../kernelboot/index.html">kernelboot</a>, <a href="../lidR/index.html">lidR</a>, <a href="../MetamapsDB/index.html">MetamapsDB</a>, <a href="../ngstk/index.html">ngstk</a>, <a href="../origami/index.html">origami</a>, <a href="../PSCBS/index.html">PSCBS</a>, <a href="../robotstxt/index.html">robotstxt</a>, <a href="../RTransferEntropy/index.html">RTransferEntropy</a>, <a href="../skpr/index.html">skpr</a>, <a href="../sperrorest/index.html">sperrorest</a>, <a href="../startR/index.html">startR</a>, <a href="../tableschema.r/index.html">tableschema.r</a>, <a href="../vinereg/index.html">vinereg</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../BAMBI/index.html">BAMBI</a>, <a href="../batchtools/index.html">batchtools</a>, <a href="../brms/index.html">brms</a>, <a href="../drake/index.html">drake</a>, <a href="../GSODR/index.html">GSODR</a>, <a href="../ipc/index.html">ipc</a>, <a href="../jstor/index.html">jstor</a>, <a href="../penaltyLearning/index.html">penaltyLearning</a>, <a href="../promises/index.html">promises</a>, <a href="../R.filesets/index.html">R.filesets</a>, <a href="../reproducible/index.html">reproducible</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=future"><samp>https://CRAN.R-project.org/package=future</samp></a>
+to link to this page.</p>
+</body>
+</html>

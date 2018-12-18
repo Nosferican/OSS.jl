@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package lutz</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Look Up Time Zones of Point Coordinates [R package lutz version 0.2.0]" />
+<meta name="citation_author" content="Andy Teucher" />
+<meta name="citation_publication_date.Published" content="2018-06-24" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=lutz" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=lutz" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>lutz: Look Up Time Zones of Point Coordinates</h2>
+<p>Input latitude and longitude values or an 'sf/sfc' POINT 
+    object and get back the timezone in which they exist. Two methods are implemented. 
+    One is very fast and uses the 'V8' package to access the 'tz-lookup.js' 'Javascript' library
+    (&lt;<a href="https://github.com/darkskyapp/tz-lookup/">https://github.com/darkskyapp/tz-lookup/</a>&gt;). This method also works outside of countries' 
+    borders and in international waters, however speed comes at the cost of accuracy - near time 
+    zone borders away from populated centres there is a chance that it will return the incorrect
+    time zone. The other method is slower but more accurate - it uses the sf package to intersect 
+    points with a detailed map of time zones from here: 
+    &lt;<a href="https://github.com/evansiroky/timezone-boundary-builder/">https://github.com/evansiroky/timezone-boundary-builder/</a>&gt;.</p>
+<table summary="Package lutz summary">
+<tr>
+<td>Version:</td>
+<td>0.2.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 2.10)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../V8/index.html">V8</a> (&ge; 1.5), stats</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a>, <a href="../sf/index.html">sf</a> (&ge; 0.5), <a href="../sp/index.html">sp</a>, <a href="../rgdal/index.html">rgdal</a>, datasets, <a href="../covr/index.html">covr</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-06-24</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Andy Teucher [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Andy Teucher  &#x3c;&#x61;&#x6e;&#x64;&#x79;&#x2e;&#x74;&#x65;&#x75;&#x63;&#x68;&#x65;&#x72;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/ateucher/lutz/issues">https://github.com/ateucher/lutz/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/ateucher/lutz">https://github.com/ateucher/lutz</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_lutz.html">lutz results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package lutz downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="lutz.pdf"> lutz.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/lutz_0.2.0.tar.gz"> lutz_0.2.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/lutz_0.2.0.zip">lutz_0.2.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/lutz_0.2.0.zip">lutz_0.2.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/lutz_0.2.0.zip">lutz_0.2.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/lutz_0.2.0.tgz">lutz_0.2.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/lutz_0.2.0.tgz">lutz_0.2.0.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/lutz"> lutz archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package lutz reverse dependencies">
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../weathercan/index.html">weathercan</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=lutz"><samp>https://CRAN.R-project.org/package=lutz</samp></a>
+to link to this page.</p>
+</body>
+</html>

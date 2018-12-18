@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package httk</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>httk: High-Throughput Toxicokinetics</h2>
+<p>Functions and data tables for simulation and statistical analysis of chemical toxicokinetics ("TK") using data obtained from relatively high throughput, in vitro studies. Both physiologically-based ("PBTK") and empirical (e.g., one compartment) "TK" models can be parameterized for several hundred chemicals and multiple species. These models are solved efficiently, often using compiled (C-based) code. A Monte Carlo sampler is included for simulating biological variability and measurement limitations. Functions are also provided for exporting "PBTK" models to "SBML" and "JARNAC" for use with other simulation software. These functions and data provide a set of tools for in vitro-in vivo extrapolation ("IVIVE") of high throughput screening data (e.g., ToxCast) to real-world exposures via reverse dosimetry (also known as "RTK").</p>
+<table summary="Package httk summary">
+<tr>
+<td>Version:</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 2.10)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../deSolve/index.html">deSolve</a>, <a href="../msm/index.html">msm</a>, <a href="../data.table/index.html">data.table</a>, <a href="../survey/index.html">survey</a>, <a href="../mvtnorm/index.html">mvtnorm</a>, <a href="../truncnorm/index.html">truncnorm</a>, stats, utils</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../ggplot2/index.html">ggplot2</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../R.rsp/index.html">R.rsp</a>, <a href="../GGally/index.html">GGally</a>, <a href="../gplots/index.html">gplots</a>, <a href="../scales/index.html">scales</a>, <a href="../EnvStats/index.html">EnvStats</a>, <a href="../MASS/index.html">MASS</a>, <a href="../RColorBrewer/index.html">RColorBrewer</a>, <a href="../TeachingDemos/index.html">TeachingDemos</a>, <a href="../classInt/index.html">classInt</a>, <a href="../ks/index.html">ks</a>, <a href="../reshape2/index.html">reshape2</a>, <a href="../gdata/index.html">gdata</a>, <a href="../viridis/index.html">viridis</a>, <a href="../CensRegMod/index.html">CensRegMod</a>, <a href="../gmodels/index.html">gmodels</a>, <a href="../colorspace/index.html">colorspace</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-01-23</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>John Wambaugh, Robert Pearce, Caroline Ring, Jimena Davis, Nisha Sipes, and R. Woodrow Setzer</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>John Wambaugh  &#x3c;&#x77;&#x61;&#x6d;&#x62;&#x61;&#x75;&#x67;&#x68;&#x2e;&#x6a;&#x6f;&#x68;&#x6e;&#x20;&#x61;&#x74;&#x20;&#x65;&#x70;&#x61;&#x2e;&#x67;&#x6f;&#x76;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">httk citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_httk.html">httk results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package httk downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="httk.pdf"> httk.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/Pearce_2017_partitioning_plots.html">Creating Partition Coefficient Evaluation Plots</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_age_dist.html">Age distributions</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_globalsensitivityanalysis.html">Global sensitivity analysis</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_globalsensitivityplot.html">Global sensitivity analysis plotting</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_heightweight_splines_kde.html">Height and weight spline fits and residuals</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_hematocrit_splines.html">Hematocrit spline fits and residuals</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_plot_css95.html">Plotting Css95</a><br/>
+<a href="vignettes/Ring_2017_supplemental_vignette_serumcreat_splines_kde.html">Serum creatinine spline fits and residuals</a><br/>
+<a href="vignettes/Ring_2017_vignette01_subpopulations.html">Generating subpopulations</a><br/>
+<a href="vignettes/Ring_2017_vignette02_evalmodelsubpop.html">Evaluating HTTK models for subpopulations</a><br/>
+<a href="vignettes/Ring_2017_vignette03_paper_fig2.html">Generating Figure 2</a><br/>
+<a href="vignettes/Ring_2017_vignette04_paper_fig3.html">Generating Figure 3</a><br/>
+<a href="vignettes/Ring_2017_vignette05b_plothowgatejohnson.html">Plotting Howgate/Johnson data</a><br/>
+<a href="vignettes/Ring_2017_vignette06_aerplotting.html">AER plotting</a><br/>
+<a href="vignettes/Ring_2017_vignette_05a_virtualstudypops.html">Virtual study populations</a><br/>
+<a href="vignettes/Wambaugh_2018_Figures.html">Wambaugh et al. (Submitted): Creating All Figures</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/httk_1.8.tar.gz"> httk_1.8.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/httk_1.8.zip">httk_1.8.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/httk_1.8.zip">httk_1.8.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/httk_1.8.zip">httk_1.8.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/httk_1.8.tgz">httk_1.8.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/httk_1.8.tgz">httk_1.8.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/httk"> httk archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=httk"><samp>https://CRAN.R-project.org/package=httk</samp></a>
+to link to this page.</p>
+</body>
+</html>

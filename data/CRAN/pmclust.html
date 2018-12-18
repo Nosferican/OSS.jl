@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package pmclust</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Parallel Model-Based Clustering using
+Expectation-Gathering-Maximization Algorithm for Finite Mixture
+Gaussian Model [R package pmclust version 0.2-0]" />
+<meta name="citation_author1" content="Wei-Chen Chen" />
+<meta name="citation_author2" content="George Ostrouchov" />
+<meta name="citation_publication_date.Published" content="2018-02-02" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=pmclust" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=pmclust" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>pmclust: Parallel Model-Based Clustering using
+Expectation-Gathering-Maximization Algorithm for Finite Mixture
+Gaussian Model</h2>
+<p>Aims to utilize model-based clustering (unsupervised)
+        for high dimensional and ultra large data, especially in a distributed
+        manner. The code employs 'pbdMPI' to perform a
+        expectation-gathering-maximization algorithm
+        for finite mixture Gaussian
+        models. The unstructured dispersion matrices are assumed in the
+        Gaussian models. The implementation is default in the single program
+        multiple data programming model. The code can be executed
+        through 'pbdMPI' and MPI' implementations such as 'OpenMPI'
+        and 'MPICH'.
+        See the High Performance Statistical Computing website
+	&lt;<a href="https://snoweye.github.io/hpsc/">https://snoweye.github.io/hpsc/</a>&gt;
+	for more information, documents and examples.</p>
+<table summary="Package pmclust summary">
+<tr>
+<td>Version:</td>
+<td>0.2-0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.0), <a href="../pbdMPI/index.html">pbdMPI</a> (&ge; 0.3-1), <a href="../pbdBASE/index.html">pbdBASE</a> (&ge; 0.4-3), <a href="../pbdDMAT/index.html">pbdDMAT</a> (&ge; 0.4-0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>methods, <a href="../MASS/index.html">MASS</a></td>
+</tr>
+<tr>
+<td>Enhances:</td>
+<td><a href="../MixSim/index.html">MixSim</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-02-02</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Wei-Chen Chen [aut, cre],
+  George Ostrouchov [aut]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Wei-Chen Chen  &#x3c;&#x77;&#x63;&#x63;&#x73;&#x6e;&#x6f;&#x77;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="http://group.r-pbd.org/">http://group.r-pbd.org/</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://r-pbd.org/">http://r-pbd.org/</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">pmclust citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="README">README</a> <a href="ChangeLog">ChangeLog</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/Cluster.html">Cluster</a>, <a href="../../views/HighPerformanceComputing.html">HighPerformanceComputing</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_pmclust.html">pmclust results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package pmclust downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="pmclust.pdf"> pmclust.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/pmclust-guide.pdf">pmclust-guide</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/pmclust_0.2-0.tar.gz"> pmclust_0.2-0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/pmclust_0.2-0.zip">pmclust_0.2-0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/pmclust_0.2-0.zip">pmclust_0.2-0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/pmclust_0.2-0.zip">pmclust_0.2-0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: not available, r-oldrel: not available </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/pmclust"> pmclust archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package pmclust reverse dependencies">
+<tr>
+<td>Reverse&nbsp;enhances:</td>
+<td><a href="../pbdDEMO/index.html">pbdDEMO</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=pmclust"><samp>https://CRAN.R-project.org/package=pmclust</samp></a>
+to link to this page.</p>
+</body>
+</html>

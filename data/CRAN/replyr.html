@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package replyr</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Patches to Use 'dplyr' on Remote Data Sources [R package replyr version 0.9.8]" />
+<meta name="citation_author1" content="John Mount" />
+<meta name="citation_author2" content="Nina Zumel" />
+<meta name="citation_publication_date.Published" content="2018-09-19" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=replyr" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=replyr" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>replyr: Patches to Use 'dplyr' on Remote Data Sources</h2>
+<p>Patches to use 'dplyr' on remote data sources ('SQL' databases,
+   'Spark' 2.0.0 and above) in a reliable "generic" fashion (generic meaning
+   user code works similarly on all such sources, without needing per-source
+   adaption).  Due to the fluctuating nature of 'dplyr'/'dbplyr'/'rlang' 'APIs' this package
+   is going into maintenance mode.  Most of the 'replyr' functions are already 
+   done better by one of the non-monolithic replacement packages: 'wrapr', 'seplyr', 'rquery',
+   or 'cdata'.</p>
+<table summary="Package replyr summary">
+<tr>
+<td>Version:</td>
+<td>0.9.8</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.4.0), <a href="../wrapr/index.html">wrapr</a> (&ge; 1.6.2)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../dplyr/index.html">dplyr</a> (&ge; 0.7.0), <a href="../rlang/index.html">rlang</a> (&ge; 0.2.0), <a href="../DBI/index.html">DBI</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../sparklyr/index.html">sparklyr</a>, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../igraph/index.html">igraph</a>, <a href="../DiagrammeR/index.html">DiagrammeR</a>, <a href="../RSQLite/index.html">RSQLite</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-09-19</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>John Mount [aut, cre],
+  Nina Zumel [aut],
+  Win-Vector LLC [cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>John Mount  &#x3c;&#x6a;&#x6d;&#x6f;&#x75;&#x6e;&#x74;&#x20;&#x61;&#x74;&#x20;&#x77;&#x69;&#x6e;&#x2d;&#x76;&#x65;&#x63;&#x74;&#x6f;&#x72;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/WinVector/replyr/issues">https://github.com/WinVector/replyr/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/WinVector/replyr/">https://github.com/WinVector/replyr/</a>,
+<a href="https://winvector.github.io/replyr/">https://winvector.github.io/replyr/</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_replyr.html">replyr results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package replyr downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="replyr.pdf"> replyr.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/DependencySorting.html">Join Dependency Sorting</a><br/>
+<a href="vignettes/ParametricExample.html">Parametric Programming in R</a><br/>
+<a href="vignettes/coalesce.html">coalesce</a><br/>
+<a href="vignettes/joinController.html">Join Controller</a><br/>
+<a href="vignettes/letExample.html">let Example</a><br/>
+<a href="vignettes/replyr.html">replyr</a><br/>
+<a href="vignettes/summary.html">summary</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/replyr_0.9.8.tar.gz"> replyr_0.9.8.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/replyr_0.9.8.zip">replyr_0.9.8.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/replyr_0.9.8.zip">replyr_0.9.8.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/replyr_0.9.8.zip">replyr_0.9.8.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/replyr_0.9.8.tgz">replyr_0.9.8.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/replyr_0.9.8.tgz">replyr_0.9.8.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/replyr"> replyr archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=replyr"><samp>https://CRAN.R-project.org/package=replyr</samp></a>
+to link to this page.</p>
+</body>
+</html>

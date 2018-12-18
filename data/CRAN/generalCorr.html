@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package generalCorr</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>generalCorr: Generalized Correlations and Initial Causal Path</h2>
+<p>Since causal paths from data are important for all sciences, the
+     package provides sophisticated functions. The idea is simply 
+     that if X causes Y (path: X to Y) then non-deterministic variation in X
+     is more "original or independent" than similar variation in Y. Since causal variables are
+     also exogenous in a model, we provide new exogeneity tests.  We compare 
+     two flipped kernel regressions: X=f(Y, Z) and Y=g(X,Z), where Z are control 
+     variables. Our first two criteria compare absolute cross products
+     of regressor values and residuals (Cr1) and 
+     absolute residuals (Cr2), are both quantified by stochastic dominance of four 
+     orders (SD1 to SD4). Our third criterion (Cr3) expects X to be better able 
+     to predict Y than the other way around using generalized partial correlation 
+     If |r*(x|y,z)|&gt; |r*(y|x,z)| it suggests that y is more likely
+    the "kernel cause" of x. The usual partial correlations are generalized with 
+    a new non-symmetric matrix developed here.
+    Partial correlations help asses effect of x on y after removing the effect of a
+    set of variables. 
+    The package provides additional tools for causal assessment,
+    for printing the causal directions in a clear, comprehensive compact summary form,
+    for matrix algebra, for "outlier detection", and for numerical integration by the
+    trapezoidal rule, stochastic dominance, etc. 
+    The package has functions for bootstrap-based statistical inference.</p>
+<table summary="Package generalCorr summary">
+<tr>
+<td>Version:</td>
+<td>1.1.2</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.0), <a href="../np/index.html">np</a> (&ge; 0.60), <a href="../xtable/index.html">xtable</a> (&ge; 1.8), <a href="../meboot/index.html">meboot</a> (&ge; 1.4), <a href="../psych/index.html">psych</a> (&ge; 1.5)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../R.rsp/index.html">R.rsp</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-07-12</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Prof. H. D. Vinod, Fordham University, NY.</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>H. D. Vinod  &#x3c;&#x76;&#x69;&#x6e;&#x6f;&#x64;&#x20;&#x61;&#x74;&#x20;&#x66;&#x6f;&#x72;&#x64;&#x68;&#x61;&#x6d;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_generalCorr.html">generalCorr results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package generalCorr downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="generalCorr.pdf"> generalCorr.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/generalCorr-vignette.pdf">generalCorr-vignette</a><br/>
+<a href="vignettes/generalCorr-vignette2.pdf">generalCorr-vignette2</a><br/>
+<a href="vignettes/generalCorr-vignette3.pdf">generalCorr-vignette3</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/generalCorr_1.1.2.tar.gz"> generalCorr_1.1.2.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/generalCorr_1.1.2.zip">generalCorr_1.1.2.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/generalCorr_1.1.2.zip">generalCorr_1.1.2.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/generalCorr_1.1.2.zip">generalCorr_1.1.2.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/generalCorr_1.1.2.tgz">generalCorr_1.1.2.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/generalCorr_1.1.2.tgz">generalCorr_1.1.2.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/generalCorr"> generalCorr archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=generalCorr"><samp>https://CRAN.R-project.org/package=generalCorr</samp></a>
+to link to this page.</p>
+</body>
+</html>

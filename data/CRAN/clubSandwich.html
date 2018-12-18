@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package clubSandwich</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Cluster-Robust (Sandwich) Variance Estimators with Small-Sample
+Corrections [R package clubSandwich version 0.3.2]" />
+<meta name="citation_author" content="James Pustejovsky" />
+<meta name="citation_publication_date.Published" content="2018-05-21" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=clubSandwich" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=clubSandwich" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>clubSandwich: Cluster-Robust (Sandwich) Variance Estimators with Small-Sample
+Corrections</h2>
+<p>Provides several cluster-robust variance estimators (i.e.,
+    sandwich estimators) for ordinary and weighted least squares linear regression
+    models, including the bias-reduced linearization estimator introduced by Bell
+    and McCaffrey (2002) 
+    &lt;<a href="http://www.statcan.gc.ca/pub/12-001-x/2002002/article/9058-eng.pdf">http://www.statcan.gc.ca/pub/12-001-x/2002002/article/9058-eng.pdf</a>&gt; and 
+    developed further by Pustejovsky and Tipton (2017) 
+    &lt;<a href="https://doi.org/10.1080/07350015.2016.1247004">doi:10.1080/07350015.2016.1247004</a>&gt;. The package includes functions for estimating
+    the variance- covariance matrix and for testing single- and multiple-
+    contrast hypotheses based on Wald test statistics. Tests of single regression
+    coefficients use Satterthwaite or saddle-point corrections. Tests of multiple-
+    contrast hypotheses use an approximation to Hotelling's T-squared distribution.
+    Methods are provided for a variety of fitted models, including lm() and mlm
+    objects, glm(), ivreg (from package 'AER'), plm() (from package 'plm'), gls()
+    and lme() (from 'nlme'), robu() (from 'robumeta'), and rma.uni() and rma.mv()
+    (from 'metafor').</p>
+<table summary="Package clubSandwich summary">
+<tr>
+<td>Version:</td>
+<td>0.3.2</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>stats, <a href="../sandwich/index.html">sandwich</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../Formula/index.html">Formula</a>, <a href="../knitr/index.html">knitr</a>, <a href="../carData/index.html">carData</a>, <a href="../geepack/index.html">geepack</a>, <a href="../metafor/index.html">metafor</a>, <a href="../robumeta/index.html">robumeta</a>, <a href="../nlme/index.html">nlme</a>, <a href="../mlmRev/index.html">mlmRev</a>, <a href="../AER/index.html">AER</a>, <a href="../plm/index.html">plm</a> (&ge; 1.6-4), <a href="../lme4/index.html">lme4</a>, <a href="../zoo/index.html">zoo</a>, <a href="../testthat/index.html">testthat</a>, <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-05-21</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>James Pustejovsky [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>James Pustejovsky  &#x3c;&#x6a;&#x65;&#x70;&#x75;&#x73;&#x74;&#x6f;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/jepusto/clubSandwich/issues">https://github.com/jepusto/clubSandwich/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/jepusto/clubSandwich">https://github.com/jepusto/clubSandwich</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/Econometrics.html">Econometrics</a>, <a href="../../views/MetaAnalysis.html">MetaAnalysis</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_clubSandwich.html">clubSandwich results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package clubSandwich downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="clubSandwich.pdf"> clubSandwich.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/Robust-Variance-Estimation-with-clubSandwich.html">Cluster-robust variance estimation with clubSandwich</a><br/>
+<a href="vignettes/meta-analysis-with-CRVE.html">Meta-analysis with cluster-robust variance estimation</a><br/>
+<a href="vignettes/panel-data-CRVE.html">Cluster-robust standard errors and hypothesis tests in panel data models</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/clubSandwich_0.3.2.tar.gz"> clubSandwich_0.3.2.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/clubSandwich_0.3.2.zip">clubSandwich_0.3.2.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/clubSandwich_0.3.2.zip">clubSandwich_0.3.2.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/clubSandwich_0.3.2.zip">clubSandwich_0.3.2.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/clubSandwich_0.3.2.tgz">clubSandwich_0.3.2.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/clubSandwich_0.3.2.tgz">clubSandwich_0.3.2.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/clubSandwich"> clubSandwich archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package clubSandwich reverse dependencies">
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../estimatr/index.html">estimatr</a>, <a href="../lavaSearch2/index.html">lavaSearch2</a>, <a href="../plm/index.html">plm</a>, <a href="../robumeta/index.html">robumeta</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=clubSandwich"><samp>https://CRAN.R-project.org/package=clubSandwich</samp></a>
+to link to this page.</p>
+</body>
+</html>

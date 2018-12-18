@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package httptest</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="A Test Environment for HTTP Requests [R package httptest version 3.2.2]" />
+<meta name="citation_author" content="Neal Richardson" />
+<meta name="citation_publication_date.Published" content="2018-12-07" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=httptest" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=httptest" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>httptest: A Test Environment for HTTP Requests</h2>
+<p>Testing and documenting code that communicates with remote servers
+    can be painful. Dealing with authentication, server state,
+    and other complications can make testing seem too costly to
+    bother with. But it doesn't need to be that hard. This package enables one
+    to test all of the logic on the R sides of the API in your package without
+    requiring access to the remote service. Importantly, it provides three
+    contexts that mock the network connection in different ways, as well as
+    testing functions to assert that HTTP requests were&mdash;or were
+    not&mdash;made. It also allows one to safely record real API responses to use as
+    test fixtures. The ability to save responses and load them offline also
+    enables one to write vignettes and other dynamic documents that can be
+    distributed without access to a live server.</p>
+<table summary="Package httptest summary">
+<tr>
+<td>Version:</td>
+<td>3.2.2</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.0.0), <a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../digest/index.html">digest</a>, <a href="../httr/index.html">httr</a>, <a href="../jsonlite/index.html">jsonlite</a>, stats, utils</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../covr/index.html">covr</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../spelling/index.html">spelling</a>, <a href="../xml2/index.html">xml2</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-12-07</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Neal Richardson [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Neal Richardson  &#x3c;&#x6e;&#x65;&#x61;&#x6c;&#x2e;&#x70;&#x2e;&#x72;&#x69;&#x63;&#x68;&#x61;&#x72;&#x64;&#x73;&#x6f;&#x6e;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/nealrichardson/httptest/issues">https://github.com/nealrichardson/httptest/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://enpiar.com/r/httptest">https://enpiar.com/r/httptest</a>,
+<a href="https://github.com/nealrichardson/httptest">https://github.com/nealrichardson/httptest</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Language:</td>
+<td>en-US</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/WebTechnologies.html">WebTechnologies</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_httptest.html">httptest results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package httptest downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="httptest.pdf"> httptest.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/httptest.html">httptest: A Test Environment for HTTP Requests in R</a><br/>
+<a href="vignettes/redacting.html">Redacting and Modifying Recorded Requests</a><br/>
+<a href="vignettes/vignettes.html">Writing Vignettes with APIs</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/httptest_3.2.2.tar.gz"> httptest_3.2.2.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/httptest_3.2.2.zip">httptest_3.2.2.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/httptest_3.2.2.zip">httptest_3.2.2.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/httptest_3.2.2.zip">httptest_3.2.2.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/httptest_3.2.2.tgz">httptest_3.2.2.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/httptest_3.2.2.tgz">httptest_3.2.2.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/httptest"> httptest archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package httptest reverse dependencies">
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../AlphaVantageClient/index.html">AlphaVantageClient</a>, <a href="../crplyr/index.html">crplyr</a>, <a href="../crunch/index.html">crunch</a>, <a href="../dkanr/index.html">dkanr</a>, <a href="../echor/index.html">echor</a>, <a href="../edgarWebR/index.html">edgarWebR</a>, <a href="../googleAnalyticsR/index.html">googleAnalyticsR</a>, <a href="../googleAuthR/index.html">googleAuthR</a>, <a href="../googleLanguageR/index.html">googleLanguageR</a>, <a href="../httpcache/index.html">httpcache</a>, <a href="../MODIStsp/index.html">MODIStsp</a>, <a href="../PetfindeR/index.html">PetfindeR</a>, <a href="../pivotaltrackR/index.html">pivotaltrackR</a>, <a href="../portalr/index.html">portalr</a>, <a href="../rGoodData/index.html">rGoodData</a>, <a href="../Rpoet/index.html">Rpoet</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=httptest"><samp>https://CRAN.R-project.org/package=httptest</samp></a>
+to link to this page.</p>
+</body>
+</html>

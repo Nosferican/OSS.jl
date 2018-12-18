@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package rIP</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Detects Fraud in Online Surveys by Tracing and Scoring IP
+Addresses [R package rIP version 0.1.1]" />
+<meta name="citation_author1" content="Ryan Kennedy" />
+<meta name="citation_author2" content="Philip Waggoner" />
+<meta name="citation_publication_date.Published" content="2018-10-16" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=rIP" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=rIP" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>rIP: Detects Fraud in Online Surveys by Tracing and Scoring IP
+Addresses</h2>
+<p>Takes as its input an array of IP addresses and the user's X-Key, passes these to &lt;<a href="https://iphub.info/">https://iphub.info/</a>&gt;, and returns a dataframe with the ip (used for merging), country code, country name, asn, isp, block, and hostname.
+    Especially important in this is the variable "block", which gives a score indicating whether the IP address is likely from a server farm and should be excluded from the data. It is codes 0 if the IP is residential/unclassified (i.e. safe IP), 1 if the IP is non-residential IP (hostping provider, proxy, etc. &ndash; should likely be excluded), and 2 for non-residential and residential IPs (more stringent, may flag innocent respondents).
+    The recommendation from &lt;<a href="https://iphub.info/">https://iphub.info/</a>&gt; is to block or exclude those who score block = 1.</p>
+<table summary="Package rIP summary">
+<tr>
+<td>Version:</td>
+<td>0.1.1</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../httr/index.html">httr</a>, utils</td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-10-16</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Ryan Kennedy [aut, cre],
+  Philip Waggoner [aut],
+  Scott Clifford [ctb]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Ryan Kennedy  &#x3c;&#x72;&#x6b;&#x65;&#x6e;&#x6e;&#x65;&#x64;&#x79;&#x20;&#x61;&#x74;&#x20;&#x75;&#x68;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_rIP.html">rIP results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package rIP downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="rIP.pdf"> rIP.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/rIP_0.1.1.tar.gz"> rIP_0.1.1.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/rIP_0.1.1.zip">rIP_0.1.1.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/rIP_0.1.1.zip">rIP_0.1.1.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/rIP_0.1.1.zip">rIP_0.1.1.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/rIP_0.1.1.tgz">rIP_0.1.1.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/rIP_0.1.1.tgz">rIP_0.1.1.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/rIP"> rIP archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=rIP"><samp>https://CRAN.R-project.org/package=rIP</samp></a>
+to link to this page.</p>
+</body>
+</html>

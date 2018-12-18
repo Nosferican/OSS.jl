@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package envnames</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>envnames: Track User-Defined Environment Names</h2>
+<p>Set of functions to keep track of user-defined
+    environment names which cannot be retrieved with the built-in function environmentName.
+    The main function in this package for this purpose has a similar name: environment_name(),
+    which returns the name of the environment given as parameter, be it a system, package,
+    user-defined, or function execution environment.  
+    The package also provides additional functionality, the most important ones being:  
+    - A function (obj_find()) to search for objects. This function extends the functionality of exists()
+    as follows: objects are searched recursively within all user-defined environments.  
+    - A way to get the stack of calling function names (get_fun_calling_chain()),
+    in an easier way than the built-in function sys.call(), which requires further
+    non-intuitive parsing of the output.  
+    - A function (get_obj_address()) to retrieve the memory address of an object.
+    This package was inspired by an "R for developers" course given by Andrea Spano from Quantide
+    (&lt;<a href="http://www.quantide.com/courses-overview/r-for-developers">http://www.quantide.com/courses-overview/r-for-developers</a>&gt;)
+    and by a post by Gabor Grothendieck at the R-Help forum
+    (&lt;<a href="https://stat.ethz.ch/pipermail/r-help/2010-July/245646.html">https://stat.ethz.ch/pipermail/r-help/2010-July/245646.html</a>&gt;).</p>
+<table summary="Package envnames summary">
+<tr>
+<td>Version:</td>
+<td>0.3.0</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-07-22</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Daniel Mastropietro</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Daniel Mastropietro  &#x3c;&#x6d;&#x61;&#x73;&#x74;&#x72;&#x6f;&#x70;&#x69;&#x20;&#x61;&#x74;&#x20;&#x75;&#x77;&#x61;&#x6c;&#x75;&#x6d;&#x6e;&#x69;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/mastropi/envnames/issues">https://github.com/mastropi/envnames/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/mastropi/envnames">https://github.com/mastropi/envnames</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_envnames.html">envnames results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package envnames downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="envnames.pdf"> envnames.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/envnames.pdf">Overview of the envnames package</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/envnames_0.3.0.tar.gz"> envnames_0.3.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/envnames_0.3.0.zip">envnames_0.3.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/envnames_0.3.0.zip">envnames_0.3.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/envnames_0.3.0.zip">envnames_0.3.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/envnames_0.3.0.tgz">envnames_0.3.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/envnames_0.3.0.tgz">envnames_0.3.0.tgz</a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=envnames"><samp>https://CRAN.R-project.org/package=envnames</samp></a>
+to link to this page.</p>
+</body>
+</html>

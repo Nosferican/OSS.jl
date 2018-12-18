@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package svars</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Data-Driven Identification of SVAR Models [R package svars version 1.2.2]" />
+<meta name="citation_author1" content="Alexander Lange" />
+<meta name="citation_author2" content="Bernhard Dalheimer" />
+<meta name="citation_author3" content="Helmut Herwartz" />
+<meta name="citation_author4" content="Simone Maxand" />
+<meta name="citation_publication_date.Published" content="2018-11-17" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=svars" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=svars" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>svars: Data-Driven Identification of SVAR Models</h2>
+<p>Implements data-driven identification methods for structural vector autoregressive (SVAR) models. 
+             Based on an existing VAR model object (provided by e.g. VAR() from the 'vars' package), the structural 
+             impact matrix is obtained via data-driven identification techniques (i.e. changes in volatility (Rigobon, R. (2003) &lt;<a href="https://doi.org/10.1162/003465303772815727">doi:10.1162/003465303772815727</a>&gt;), 
+             least dependent innovations (Herwartz, H., Ploedt, M., (2016) &lt;<a href="https://doi.org/10.1016/j.jimonfin.2015.11.001">doi:10.1016/j.jimonfin.2015.11.001</a>&gt;) or non-Gaussian maximum likelihood (Lanne, M., Meitz, M., Saikkonen, P. (2017) &lt;<a href="https://doi.org/10.1016/j.jeconom.2016.06.002">doi:10.1016/j.jeconom.2016.06.002</a>&gt;).</p>
+<table summary="Package svars summary">
+<tr>
+<td>Version:</td>
+<td>1.2.2</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 2.10), <a href="../vars/index.html">vars</a> (&ge; 1.5.3)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../expm/index.html">expm</a>, <a href="../reshape2/index.html">reshape2</a>, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../copula/index.html">copula</a>, <a href="../clue/index.html">clue</a>, <a href="../pbapply/index.html">pbapply</a>, <a href="../steadyICA/index.html">steadyICA</a>, <a href="../tsDyn/index.html">tsDyn</a>, <a href="../DEoptim/index.html">DEoptim</a>, <a href="../zoo/index.html">zoo</a>, <a href="../strucchange/index.html">strucchange</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-11-17</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Alexander Lange [aut, cre],
+  Bernhard Dalheimer [aut],
+  Helmut Herwartz [aut],
+  Simone Maxand [aut],
+  Hannes Riebl [ctb]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Alexander Lange  &#x3c;&#x61;&#x6c;&#x65;&#x78;&#x61;&#x6e;&#x64;&#x65;&#x72;&#x2e;&#x6c;&#x61;&#x6e;&#x67;&#x65;&#x20;&#x61;&#x74;&#x20;&#x75;&#x6e;&#x69;&#x2d;&#x67;&#x6f;&#x65;&#x74;&#x74;&#x69;&#x6e;&#x67;&#x65;&#x6e;&#x2e;&#x64;&#x65;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/TimeSeries.html">TimeSeries</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_svars.html">svars results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package svars downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="svars.pdf"> svars.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/svars_1.2.2.tar.gz"> svars_1.2.2.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/svars_1.2.2.zip">svars_1.2.2.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/svars_1.2.2.zip">svars_1.2.2.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/svars_1.2.2.zip">svars_1.2.2.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/svars_1.2.2.tgz">svars_1.2.2.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/svars_1.2.2.tgz">svars_1.2.2.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/svars"> svars archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=svars"><samp>https://CRAN.R-project.org/package=svars</samp></a>
+to link to this page.</p>
+</body>
+</html>

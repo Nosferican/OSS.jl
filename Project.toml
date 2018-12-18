@@ -1,0 +1,9 @@
+name = "OSS"
+uuid = "a8d0f7f0-6691-5d09-bbca-c3935ab3ed32"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Gumbo = "708ec375-b3d6-5a57-a7ce-8257bf98657a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+LazyJSON = "fc18253b-5e1b-504c-a4a2-9ece4944c004"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"

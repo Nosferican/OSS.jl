@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package SimRepeat</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>SimRepeat: Simulation of Correlated Systems of Equations with Multiple
+Variable Types</h2>
+<p>Generate correlated systems of statistical equations which represent 
+    repeated measurements or clustered data.  These systems contain either: a) continuous normal, 
+    non-normal, and mixture variables based on the techniques of Headrick and Beasley (2004) 
+    &lt;<a href="https://doi.org/10.1081/SAC-120028431">doi:10.1081/SAC-120028431</a>&gt; or b) continuous (normal, non-normal and mixture), ordinal, 
+    and count (regular or zero-inflated, Poisson and Negative Binomial) variables based on the 
+    hierarchical linear models (HLM) approach.  Headrick and Beasley's method for continuous 
+    variables calculates the beta (slope) coefficients based on the target correlations between 
+    independent variables and between outcomes and independent variables.  The package provides 
+    functions to calculate the expected correlations between outcomes, between outcomes and error 
+    terms, and between outcomes and independent variables, extending Headrick and Beasley's 
+    equations to include mixture variables.  These theoretical values can be compared to the 
+    simulated correlations.  The HLM approach requires specification of the beta coefficients, 
+    but permits group and subject-level independent variables, interactions among independent 
+    variables, and fixed and random effects, providing more flexibility in the system of 
+    equations.  Both methods permit simulation of data sets that mimic real-world clinical or 
+    genetic data sets (i.e. plasmodes, as in Vaughan et al., 2009, &lt;10.1016/j.csda.2008.02.032&gt;).  
+    The techniques extend those found in the 'SimMultiCorrData' and 'SimCorrMix' packages.  
+    Standard normal variables with an imposed intermediate correlation matrix are transformed 
+    to generate the desired distributions.  Continuous variables are simulated using either 
+    Fleishman's third-order (&lt;<a href="https://doi.org/10.1007/BF02293811">doi:10.1007/BF02293811</a>&gt;) or Headrick's fifth-order 
+    (&lt;<a href="https://doi.org/10.1016/S0167-9473(02)00072-5">doi:10.1016/S0167-9473(02)00072-5</a>&gt;) power method transformation (PMT).  Simulation 
+    occurs at the component-level for continuous mixture distributions.  These components are 
+    transformed into the desired mixture variables using random multinomial variables based on 
+    the mixing probabilities.  The target correlation matrices are specified in terms of 
+    correlations with components of continuous mixture variables.  Binary and ordinal variables 
+    are simulated by discretizing the normal variables at quantiles defined by the marginal 
+    distributions.  Count variables are simulated using the inverse CDF method.  There are 
+    two simulation pathways for the multi-variable type systems which differ by intermediate 
+    correlations involving count variables.  Correlation Method 1 adapts Yahav and Shmueli's 
+    2012 method &lt;<a href="https://doi.org/10.1002/asmb.901">doi:10.1002/asmb.901</a>&gt; and performs best with large count variable means and 
+    positive correlations or small means and negative correlations.  Correlation Method 2 
+    adapts Barbiero and Ferrari's 2015 modification of the 'GenOrd' package 
+    &lt;<a href="https://doi.org/10.1002/asmb.2072">doi:10.1002/asmb.2072</a>&gt; and performs best under the opposite scenarios.  There are 
+    three methods available for correcting non-positive definite correlation matrices.  The 
+    optional error loop may be used to improve the accuracy of the final correlation matrices.  
+    The package also provides function to check parameter inputs and summarize the simulated 
+    systems of equations.</p>
+<table summary="Package SimRepeat summary">
+<tr>
+<td>Version:</td>
+<td>0.1.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.4.0), <a href="../SimMultiCorrData/index.html">SimMultiCorrData</a> (&ge; 0.2.1), <a href="../SimCorrMix/index.html">SimCorrMix</a> (&ge;
+0.1.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../BB/index.html">BB</a>, <a href="../nleqslv/index.html">nleqslv</a>, <a href="../MASS/index.html">MASS</a>, <a href="../Matrix/index.html">Matrix</a>, <a href="../VGAM/index.html">VGAM</a>, <a href="../triangle/index.html">triangle</a>, <a href="../ggplot2/index.html">ggplot2</a>, grid, stats, utils</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../printr/index.html">printr</a>, <a href="../bookdown/index.html">bookdown</a>, <a href="../nlme/index.html">nlme</a>, <a href="../reshape2/index.html">reshape2</a>, <a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-04-16</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Allison Cynthia Fialkowski</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Allison Cynthia Fialkowski  &#x3c;&#x61;&#x6c;&#x6c;&#x69;&#x6a;&#x61;&#x7a;&#x7a;&#x20;&#x61;&#x74;&#x20;&#x75;&#x61;&#x62;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/AFialkowski/SimRepeat">https://github.com/AFialkowski/SimRepeat</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="README.html">README</a> <a href="news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_SimRepeat.html">SimRepeat results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package SimRepeat downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="SimRepeat.pdf"> SimRepeat.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/Corr_Cont_System.html">Correlated Systems of Statistical Equations with Non-Mixture and Mixture Continuous Variables</a><br/>
+<a href="vignettes/Corr_MultiVarType_System.html">Correlated Systems of Statistical Equations with Multiple Variable Types</a><br/>
+<a href="vignettes/HLM_Approach.html">The Hierarchical Linear Models Approach for a System of Correlated Equations with Multiple Variable Types</a><br/>
+<a href="vignettes/Theory_Cont_System.html">Theory and Equations for Correlated Systems of Continuous Variables</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/SimRepeat_0.1.0.tar.gz"> SimRepeat_0.1.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/SimRepeat_0.1.0.zip">SimRepeat_0.1.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/SimRepeat_0.1.0.zip">SimRepeat_0.1.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/SimRepeat_0.1.0.zip">SimRepeat_0.1.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/SimRepeat_0.1.0.tgz">SimRepeat_0.1.0.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/SimRepeat_0.1.0.tgz">SimRepeat_0.1.0.tgz</a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=SimRepeat"><samp>https://CRAN.R-project.org/package=SimRepeat</samp></a>
+to link to this page.</p>
+</body>
+</html>

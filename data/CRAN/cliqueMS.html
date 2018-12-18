@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package cliqueMS</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Annotation of Isotopes, Adducts and Fragmentation Adducts for
+in-Source LC/MS Metabolomics Data [R package cliqueMS version 0.2.3]" />
+<meta name="citation_author1" content="Oriol Senan Campos" />
+<meta name="citation_author2" content="Antoni Aguilar-Mogas" />
+<meta name="citation_author3" content="Jordi Capellades" />
+<meta name="citation_author4" content="Miriam Navarro" />
+<meta name="citation_author5" content="Oscar Yanes" />
+<meta name="citation_author6" content="Roger Guimerà" />
+<meta name="citation_author7" content="Marta Sales-Pardo" />
+<meta name="citation_publication_date.Published" content="2018-11-15" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=cliqueMS" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=cliqueMS" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>cliqueMS: Annotation of Isotopes, Adducts and Fragmentation Adducts for
+in-Source LC/MS Metabolomics Data</h2>
+<p>Annotates data from liquid chromatography coupled to mass spectrometry (LC/MS) metabolomics experiments. Based on a network algorithm (O.Senan, A. Aguilar- Mogas, M. Navarro, O. Yanes, R.Guimerà and M. Sales-Pardo, Metabolomics Conference (2016), Dublin), 'CliqueMS' builds a weighted similarity network where nodes are features and edges are weighted according to the similarity of this features. Then it searches for the most plausible division of the similarity network into cliques (fully connected components). Finally it annotates metabolites within each clique, obtaining for each annotated metabolite the neutral mass and their features, corresponding to isotopes, ionization adducts and fragmentation adducts of that metabolite.</p>
+<table summary="Package cliqueMS summary">
+<tr>
+<td>Version:</td>
+<td>0.2.3</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.4.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.15), <a href="http://www.bioconductor.org/packages/release/bioc/html/xcms.html"><span class="BioC">xcms</span></a>, <a href="../igraph/index.html">igraph</a>, <a href="../qlcMatrix/index.html">qlcMatrix</a>, <a href="../Matrix/index.html">Matrix</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/CAMERA.html"><span class="BioC">CAMERA</span></a>, methods</td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a>, <a href="../BH/index.html">BH</a>, <a href="../RcppArmadillo/index.html">RcppArmadillo</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../testthat/index.html">testthat</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-11-15</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Oriol Senan Campos [aut, cre],
+  Antoni Aguilar-Mogas [aut],
+  Jordi Capellades [aut],
+  Miriam Navarro [aut],
+  Oscar Yanes [aut],
+  Roger Guimerà [aut],
+  Marta Sales-Pardo [aut]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Oriol Senan Campos  &#x3c;&#x6f;&#x72;&#x69;&#x6f;&#x6c;&#x2e;&#x73;&#x65;&#x6e;&#x61;&#x6e;&#x20;&#x61;&#x74;&#x20;&#x75;&#x72;&#x76;&#x2e;&#x63;&#x61;&#x74;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/osenan/cliqueMS/issues">https://github.com/osenan/cliqueMS/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a> | <a href="../../licenses/GPL-3">GPL-3</a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/osenan/cliqueMS">https://github.com/osenan/cliqueMS</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>SystemRequirements:</td>
+<td>C++11</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">cliqueMS citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_cliqueMS.html">cliqueMS results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package cliqueMS downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="cliqueMS.pdf"> cliqueMS.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/annotate_features.html">Annotating LC/MS data with cliqueMS</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/cliqueMS_0.2.3.tar.gz"> cliqueMS_0.2.3.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/cliqueMS_0.2.3.zip">cliqueMS_0.2.3.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/cliqueMS_0.2.3.zip">cliqueMS_0.2.3.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/cliqueMS_0.2.3.zip">cliqueMS_0.2.3.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: not available, r-oldrel: not available </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/cliqueMS"> cliqueMS archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=cliqueMS"><samp>https://CRAN.R-project.org/package=cliqueMS</samp></a>
+to link to this page.</p>
+</body>
+</html>

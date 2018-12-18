@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package DataPackageR</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Construct Reproducible Analytic Data Sets as R Packages [R package DataPackageR version 0.15.4]" />
+<meta name="citation_author" content="Greg Finak" />
+<meta name="citation_publication_date.Published" content="2018-10-24" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=DataPackageR" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=DataPackageR" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>DataPackageR: Construct Reproducible Analytic Data Sets as R Packages</h2>
+<p>A framework to help construct R data packages in a 
+  reproducible manner. Potentially time consuming processing of 
+  raw data sets into analysis ready data sets is done in a reproducible 
+  manner and decoupled from the usual R CMD build process so that
+  data sets can be processed into R objects in the data package and 
+  the data package can then be shared, built, and installed by others
+  without the need to repeat computationally costly data processing.
+  The package maintains data provenance by turning the data processing
+  scripts into package vignettes, as well as enforcing documentation 
+  and version checking of included data objects. Data packages can be
+  version controlled in github, and used to share data for manuscripts,
+  collaboration and general reproducibility.</p>
+<table summary="Package DataPackageR summary">
+<tr>
+<td>Version:</td>
+<td>0.15.4</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.5.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../digest/index.html">digest</a>, <a href="../knitr/index.html">knitr</a>, utils, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../desc/index.html">desc</a>, <a href="../yaml/index.html">yaml</a>, <a href="../purrr/index.html">purrr</a>, <a href="../roxygen2/index.html">roxygen2</a> (&ge; 6.0.1), <a href="../devtools/index.html">devtools</a> (&ge; 1.12.0), <a href="../assertthat/index.html">assertthat</a>, <a href="../stringr/index.html">stringr</a>, <a href="../futile.logger/index.html">futile.logger</a>, <a href="../rprojroot/index.html">rprojroot</a>, <a href="../usethis/index.html">usethis</a>, <a href="../crayon/index.html">crayon</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../spelling/index.html">spelling</a>, <a href="../testthat/index.html">testthat</a>, <a href="../covr/index.html">covr</a>, <a href="../data.tree/index.html">data.tree</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-10-24</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Greg Finak [aut, cre, cph],
+  Paul Obrecht [ctb],
+  Kara Woo [rev] (Kara reviewed the package for ropensci, see
+    &lt;https://github.com/ropensci/onboarding/issues/230&gt;),
+  William Landau [rev] (William reviewed the package for ropensci, see
+    &lt;https://github.com/ropensci/onboarding/issues/230&gt;)</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Greg Finak  &#x3c;&#x67;&#x66;&#x69;&#x6e;&#x61;&#x6b;&#x20;&#x61;&#x74;&#x20;&#x66;&#x72;&#x65;&#x64;&#x68;&#x75;&#x74;&#x63;&#x68;&#x2e;&#x6f;&#x72;&#x67;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/ropensci/DataPackageR/issues">https://github.com/ropensci/DataPackageR/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/ropensci/DataPackageR">https://github.com/ropensci/DataPackageR</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>SystemRequirements:</td>
+<td>pandoc (&gt;= 1.12.3) - http://pandoc.org</td>
+</tr>
+<tr>
+<td>Language:</td>
+<td>en-US</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_DataPackageR.html">DataPackageR results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package DataPackageR downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="DataPackageR.pdf"> DataPackageR.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/YAML_CONFIG.html">DataPackageR YAML configuration.</a><br/>
+<a href="vignettes/usingDataPackageR.html">A Guide to using DataPackageR</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/DataPackageR_0.15.4.tar.gz"> DataPackageR_0.15.4.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/DataPackageR_0.15.4.zip">DataPackageR_0.15.4.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/DataPackageR_0.15.4.zip">DataPackageR_0.15.4.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/ReadMe">not available</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/DataPackageR_0.15.4.tgz">DataPackageR_0.15.4.tgz</a>, r-oldrel: not available </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/DataPackageR"> DataPackageR archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=DataPackageR"><samp>https://CRAN.R-project.org/package=DataPackageR</samp></a>
+to link to this page.</p>
+</body>
+</html>

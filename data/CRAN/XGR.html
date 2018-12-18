@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package XGR</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>XGR: Exploring Genomic Relations for Enhanced Interpretation Through
+Enrichment, Similarity, Network and Annotation Analysis</h2>
+<p>The central goal of XGR by Fang et al. (2016) &lt;<a href="https://doi.org/10.1186/s13073-016-0384-y">doi:10.1186/s13073-016-0384-y</a>&gt; is to provide a data interpretation system necessary to do "big data" science. It is designed to make a user-defined gene or SNP list (or genomic regions) more interpretable by comprehensively utilising ontology annotations and interaction networks to reveal relationships and enhance opportunities for biological discovery. XGR is unique in supporting a broad range of ontologies (including knowledge of biological and molecular functions, pathways, diseases and phenotypes - in both human and mouse) and different types of networks (including functional, physical and pathway interactions). There are two core functionalities of XGR. The first is to provide basic infrastructures for easy access to built-in ontologies and networks. The second is to support data interpretations via 1) enrichment analysis using either built-in or custom ontologies, 2) similarity analysis for calculating semantic similarity between genes (or SNPs) based on their ontology annotation profiles, 3) network analysis for identification of gene networks given a query list of (significant) genes, SNPs or genomic regions, and 4) annotation analysis for interpreting genomic regions using co-localised functional genomic annotations (such as open chromatin, epigenetic marks, TF binding sites and genomic segments) and using nearby gene annotations (by ontologies). Together with its web app, XGR aims to provide a user-friendly tool for exploring genomic relations at the gene, SNP and genomic region level.</p>
+<table summary="Package XGR summary">
+<tr>
+<td>Version:</td>
+<td>1.1.4</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.1.0), <a href="../igraph/index.html">igraph</a>, <a href="../dnet/index.html">dnet</a>, <a href="../ggplot2/index.html">ggplot2</a></td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../Matrix/index.html">Matrix</a>, <a href="../RCircos/index.html">RCircos</a>, grDevices, graphics, <a href="http://www.bioconductor.org/packages/release/bioc/html/GenomicRanges.html"><span class="BioC">GenomicRanges</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/IRanges.html"><span class="BioC">IRanges</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/S4Vectors.html"><span class="BioC">S4Vectors</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/supraHex.html"><span class="BioC">supraHex</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/rtracklayer.html"><span class="BioC">rtracklayer</span></a>, stats, <a href="http://www.bioconductor.org/packages/release/bioc/html/BiocGenerics.html"><span class="BioC">BiocGenerics</span></a>, <a href="../plot3D/index.html">plot3D</a>, <a href="../dplyr/index.html">dplyr</a>, <a href="../tidyr/index.html">tidyr</a>, <a href="../ggrepel/index.html">ggrepel</a>, <a href="../ggnetwork/index.html">ggnetwork</a>, <a href="../XML/index.html">XML</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../foreach/index.html">foreach</a>, <a href="../doParallel/index.html">doParallel</a>, <a href="../akima/index.html">akima</a>, <a href="../corrplot/index.html">corrplot</a>, <a href="../gridExtra/index.html">gridExtra</a>, grid, <a href="../treemapify/index.html">treemapify</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html"><span class="BioC">GenomeInfoDb</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/GenomicScores.html"><span class="BioC">GenomicScores</span></a>, <a href="../ggraph/index.html">ggraph</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/ggbio.html"><span class="BioC">ggbio</span></a>, <a href="../scales/index.html">scales</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-08-14</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Hai Fang, Bogdan Knezevic, Katie L Burnham, Julian C Knight</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Hai Fang  &#x3c;&#x68;&#x66;&#x61;&#x6e;&#x67;&#x20;&#x61;&#x74;&#x20;&#x77;&#x65;&#x6c;&#x6c;&#x2e;&#x6f;&#x78;&#x2e;&#x61;&#x63;&#x2e;&#x75;&#x6b;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/hfang-bristol/XGR/issues">https://github.com/hfang-bristol/XGR/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://XGR.r-forge.r-project.org">http://XGR.r-forge.r-project.org</a>, <a href="http://galahad.well.ox.ac.uk/XGR">http://galahad.well.ox.ac.uk/XGR</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">XGR citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="NEWS">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_XGR.html">XGR results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package XGR downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="XGR.pdf"> XGR.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/XGR_1.1.4.tar.gz"> XGR_1.1.4.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/XGR_1.1.4.zip">XGR_1.1.4.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/XGR_1.1.4.zip">XGR_1.1.4.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/XGR_1.1.4.zip">XGR_1.1.4.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: not available, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/XGR_1.1.4.tgz">XGR_1.1.4.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/XGR"> XGR archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=XGR"><samp>https://CRAN.R-project.org/package=XGR</samp></a>
+to link to this page.</p>
+</body>
+</html>

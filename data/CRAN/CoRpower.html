@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package CoRpower</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Power Calculations for Assessing Correlates of Risk in Clinical
+Efficacy Trials [R package CoRpower version 1.0.0]" />
+<meta name="citation_author1" content="Peter Gilbert" />
+<meta name="citation_author2" content="Stephanie Wu" />
+<meta name="citation_author3" content="Michal Juraska" />
+<meta name="citation_author4" content="Yunda Huang" />
+<meta name="citation_publication_date.Published" content="2018-10-06" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=CoRpower" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=CoRpower" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>CoRpower: Power Calculations for Assessing Correlates of Risk in Clinical
+Efficacy Trials</h2>
+<p>Calculates power for assessment of intermediate biomarker responses as correlates of risk in the active treatment group in clinical efficacy trials, as described in Gilbert, Janes, and Huang, Power/Sample Size Calculations for Assessing Correlates of Risk in Clinical Efficacy Trials (2016, Statistics in Medicine). The methods differ from past approaches by accounting for the level of clinical treatment efficacy overall and in biomarker response subgroups, which enables the correlates of risk results to be interpreted in terms of potential correlates of efficacy/protection. The methods also account for inter-individual variability of the observed biomarker response that is not biologically relevant (e.g., due to technical measurement error of the laboratory assay used to measure the biomarker response), which is important because power to detect a specified correlate of risk effect size is heavily affected by the biomarker's measurement error. The methods can be used for a general binary clinical endpoint model with a univariate dichotomous, trichotomous, or continuous biomarker response measured in active treatment recipients at a fixed timepoint after randomization, with either case-cohort Bernoulli sampling or case-control without-replacement sampling of the biomarker (a baseline biomarker is handled as a trivial special case). In a specified two-group trial design, the computeN() function can initially be used for calculating additional requisite design parameters pertaining to the target population of active treatment recipients observed to be at risk at the biomarker sampling timepoint. Subsequently, the power calculation employs an inverse probability weighted logistic regression model fitted by the tps() function in the 'osDesign' package. Power results as well as the relationship between the correlate of risk effect size and treatment efficacy can be visualized using various plotting functions.</p>
+<table summary="Package CoRpower summary">
+<tr>
+<td>Version:</td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.5.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../survival/index.html">survival</a>, <a href="../osDesign/index.html">osDesign</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-10-06</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Peter Gilbert [aut],
+  Stephanie Wu [aut],
+  Michal Juraska [aut, cre],
+  Yunda Huang [aut]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Michal Juraska  &#x3c;&#x6d;&#x6a;&#x75;&#x72;&#x61;&#x73;&#x6b;&#x61;&#x20;&#x61;&#x74;&#x20;&#x66;&#x72;&#x65;&#x64;&#x68;&#x75;&#x74;&#x63;&#x68;&#x2e;&#x6f;&#x72;&#x67;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/mjuraska/CoRpower/issues">https://github.com/mjuraska/CoRpower/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2">GPL-2</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/mjuraska/CoRpower">https://github.com/mjuraska/CoRpower</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_CoRpower.html">CoRpower results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package CoRpower downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="CoRpower.pdf"> CoRpower.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/CoRpower.html">Introduction to CoRpower</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/CoRpower_1.0.0.tar.gz"> CoRpower_1.0.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/CoRpower_1.0.0.zip">CoRpower_1.0.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/CoRpower_1.0.0.zip">CoRpower_1.0.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/ReadMe">not available</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/CoRpower_1.0.0.tgz">CoRpower_1.0.0.tgz</a>, r-oldrel: not available </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=CoRpower"><samp>https://CRAN.R-project.org/package=CoRpower</samp></a>
+to link to this page.</p>
+</body>
+</html>

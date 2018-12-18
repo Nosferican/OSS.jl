@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package OpenImageR</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="An Image Processing Toolkit [R package OpenImageR version 1.1.3]" />
+<meta name="citation_author" content="Lampros Mouselimis" />
+<meta name="citation_publication_date.Published" content="2018-12-09" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=OpenImageR" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=OpenImageR" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>OpenImageR: An Image Processing Toolkit</h2>
+<p>Incorporates functions for image preprocessing, filtering and image recognition. The package takes advantage of 'RcppArmadillo' to speed up computationally intensive functions. The histogram of oriented gradients descriptor is a modification of the 'findHOGFeatures' function of the 'SimpleCV' computer vision platform, the average_hash(), dhash() and phash() functions are based on the 'ImageHash' python library. The Gabor Feature Extraction functions are based on 'Matlab' code of the paper, "CloudID: Trustworthy cloud-based and cross-enterprise biometric identification" by M. Haghighat, S. Zonouz, M. Abdel-Mottaleb, Expert Systems with Applications, vol. 42, no. 21, pp. 7905-7916, 2015, &lt;<a href="https://doi.org/10.1016/j.eswa.2015.06.025">doi:10.1016/j.eswa.2015.06.025</a>&gt;. The 'SLIC' and 'SLICO' superpixel algorithms were explained in detail in (i) "SLIC Superpixels Compared to State-of-the-art Superpixel Methods", Radhakrishna Achanta, Appu Shaji, Kevin Smith, Aurelien Lucchi, Pascal Fua, and Sabine Suesstrunk, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 34, num. 11, p. 2274-2282, May 2012, &lt;<a href="https://doi.org/10.1109/TPAMI.2012.120">doi:10.1109/TPAMI.2012.120</a>&gt; and (ii) "SLIC Superpixels", Radhakrishna Achanta, Appu Shaji, Kevin Smith, Aurelien Lucchi, Pascal Fua, and Sabine Suesstrunk, EPFL Technical Report no. 149300, June 2010.</p>
+<table summary="Package OpenImageR summary">
+<tr>
+<td>Version:</td>
+<td>1.1.3</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.2.3)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a> (&ge; 0.12.17), <a href="../shiny/index.html">shiny</a>, <a href="../jpeg/index.html">jpeg</a>, <a href="../png/index.html">png</a>, <a href="../tiff/index.html">tiff</a>, utils, <a href="../R6/index.html">R6</a></td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a>, <a href="../RcppArmadillo/index.html">RcppArmadillo</a> (&ge; 0.8.0)</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, grid, <a href="../covr/index.html">covr</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-12-09</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Lampros Mouselimis [aut, cre],
+  Sight Machine [cph] (findHOGFeatures function of the SimpleCV computer
+    vision platform),
+  Johannes Buchner [cph] (average_hash, dhash and phash functions of the
+    ImageHash python library),
+  Mohammad Haghighat [cph] (Gabor Feature Extraction),
+  Radhakrishna Achanta [cph] (Author of the C++ code of the SLIC and
+    SLICO algorithms (for commercial use please contact the author))</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Lampros Mouselimis  &#x3c;&#x6d;&#x6f;&#x75;&#x73;&#x65;&#x6c;&#x69;&#x6d;&#x69;&#x73;&#x6c;&#x61;&#x6d;&#x70;&#x72;&#x6f;&#x73;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/mlampros/OpenImageR/issues">https://github.com/mlampros/OpenImageR/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>Copyright:</td>
+<td>inst/COPYRIGHTS <br/>  <a href="COPYRIGHTS">OpenImageR copyright details</a> </td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/mlampros/OpenImageR">https://github.com/mlampros/OpenImageR</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>SystemRequirements:</td>
+<td>The package requires a C++11 compiler.</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_OpenImageR.html">OpenImageR results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package OpenImageR downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="OpenImageR.pdf"> OpenImageR.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/Gabor_Feature_Extraction.html">Gabor Feature extraction</a><br/>
+<a href="vignettes/Image_segmentation_superpixels_clustering.html">Gabor Feature extraction</a><br/>
+<a href="vignettes/The_OpenImageR_package.html">Functionality of the OpenImageR package</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/OpenImageR_1.1.3.tar.gz"> OpenImageR_1.1.3.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/OpenImageR_1.1.3.zip">OpenImageR_1.1.3.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/OpenImageR_1.1.3.zip">OpenImageR_1.1.3.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/OpenImageR_1.1.3.zip">OpenImageR_1.1.3.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/OpenImageR_1.1.3.tgz">OpenImageR_1.1.3.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/OpenImageR_1.1.3.tgz">OpenImageR_1.1.3.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/OpenImageR"> OpenImageR archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package OpenImageR reverse dependencies">
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../ClusterR/index.html">ClusterR</a>, <a href="../CNVScope/index.html">CNVScope</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=OpenImageR"><samp>https://CRAN.R-project.org/package=OpenImageR</samp></a>
+to link to this page.</p>
+</body>
+</html>

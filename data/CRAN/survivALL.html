@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package survivALL</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Continuous Biomarker Assessment by Exhaustive Survival Analysis [R package survivALL version 0.9.3]" />
+<meta name="citation_author" content="Dominic Pearce" />
+<meta name="citation_publication_date.Published" content="2018-04-25" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=survivALL" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=survivALL" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>survivALL: Continuous Biomarker Assessment by Exhaustive Survival Analysis</h2>
+<p>In routine practice, biomarker performance is calculated by 
+    splitting a patient cohort at some arbitrary level, often by median gene 
+    expression. The logic behind this is to divide patients into “high” or “low”
+    expression groups that in turn correlate with either good or poor prognosis.
+    However, this median-split approach assumes that the data set composition 
+    adheres to a strict 1:1 proportion of high vs. low expression, that for 
+    every one “low” there is an equivalent “high”. In reality, data sets are 
+    often heterogeneous in their composition (Perou, CM et al., 2000 
+    &lt;<a href="https://doi.org/10.1038/35021093">doi:10.1038/35021093</a>&gt;)- i.e. this 1:1 relationship is unlikely to exist and
+    the true relationship unknown. Given this limitation, it remains difficult 
+    to determine where the most significant separation should be made. For 
+    example, estrogen receptor (ER) status determined by immunohistochemistry is
+    standard practice in predicting hormone therapy response, where ER is found 
+    in an ~1:3 ratio (-:+) in the population (Selli, C et al., 2016 
+    &lt;<a href="https://doi.org/10.1186/s13058-016-0779-0">doi:10.1186/s13058-016-0779-0</a>&gt;). We would expect therefore, upon dividing 
+    patients by ER expression, 25% to be classified “low” and 75% “high”, and 
+    an otherwise 50-50 split to incorrectly classify 25% of our patient cohort,
+    rendering our survival estimate under powered. 'survivALL' is a data-driven 
+    approach to calculate the relative survival estimates for all possible 
+    points of separation - i.e. at all possible ratios of “high” vs. “low” - 
+    allowing a measure’s relationship with survival to be more reliably 
+    determined and quantified. We see this as a solution to a flaw in common 
+    research practice, namely the failure of a true biomarker as part of a 
+    meta-analysis.</p>
+<table summary="Package survivALL summary">
+<tr>
+<td>Version:</td>
+<td>0.9.3</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.3.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../survival/index.html">survival</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/survcomp.html"><span class="BioC">survcomp</span></a>, <a href="../desiR/index.html">desiR</a>, <a href="../ggplot2/index.html">ggplot2</a>, <a href="../cowplot/index.html">cowplot</a>, <a href="../ggthemes/index.html">ggthemes</a>, <a href="../viridis/index.html">viridis</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../testthat/index.html">testthat</a>, <a href="../survsim/index.html">survsim</a>, <a href="../broom/index.html">broom</a>, <a href="../readr/index.html">readr</a>, <a href="../pander/index.html">pander</a>, <a href="../magrittr/index.html">magrittr</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/Biobase.html"><span class="BioC">Biobase</span></a>, <a href="../GGally/index.html">GGally</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-04-25</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Dominic Pearce [aut, cre]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Dominic Pearce  &#x3c;&#x64;&#x6f;&#x6d;&#x69;&#x6e;&#x69;&#x63;&#x2e;&#x70;&#x65;&#x61;&#x72;&#x63;&#x65;&#x20;&#x61;&#x74;&#x20;&#x65;&#x64;&#x2e;&#x61;&#x63;&#x2e;&#x75;&#x6b;&#x3e;</td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_survivALL.html">survivALL results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package survivALL downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="survivALL.pdf"> survivALL.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/basic-usage.html">Basic Usage</a><br/>
+<a href="vignettes/bootstrapping-and-hr-thresholds.html">Bootstrapping and hazard ratio thresholds</a><br/>
+<a href="vignettes/rationale.html">Rationale</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/survivALL_0.9.3.tar.gz"> survivALL_0.9.3.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/survivALL_0.9.3.zip">survivALL_0.9.3.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/survivALL_0.9.3.zip">survivALL_0.9.3.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/survivALL_0.9.3.zip">survivALL_0.9.3.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/survivALL_0.9.3.tgz">survivALL_0.9.3.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/survivALL_0.9.3.tgz">survivALL_0.9.3.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/survivALL"> survivALL archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=survivALL"><samp>https://CRAN.R-project.org/package=survivALL</samp></a>
+to link to this page.</p>
+</body>
+</html>

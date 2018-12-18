@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package GREP2</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="GEO RNA-Seq Experiments Processing Pipeline [R package GREP2 version 1.0.1]" />
+<meta name="citation_author1" content="Naim Al Mahi" />
+<meta name="citation_author2" content="Mario Medvedovic" />
+<meta name="citation_publication_date.Published" content="2018-07-25" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=GREP2" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=GREP2" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>GREP2: GEO RNA-Seq Experiments Processing Pipeline</h2>
+<p>An R based pipeline to download and process Gene Expression Omnibus (GEO) RNA-seq data. 
+    For a given GEO series accession ID, this pipeline generates metadata, 
+    both gene and transcript level counts, and quality control (QC) report. 
+	This package is mainly developed to process the GEO RNA-seq datasets 
+	for the web platform GREIN. More details about GREP2 and GREIN can be 
+	found here &lt;<a href="https://doi.org/10.1101/326223">doi:10.1101/326223</a>&gt;.</p>
+<table summary="Package GREP2 summary">
+<tr>
+<td>Version:</td>
+<td>1.0.1</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.4.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../XML/index.html">XML</a>, <a href="../rentrez/index.html">rentrez</a>, <a href="../RCurl/index.html">RCurl</a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/GEOquery.html"><span class="BioC">GEOquery</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/Biobase.html"><span class="BioC">Biobase</span></a>, parallel, <a href="http://www.bioconductor.org/packages/release/bioc/html/tximport.html"><span class="BioC">tximport</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/EnsDb.Hsapiens.v86.html"><span class="BioC">EnsDb.Hsapiens.v86</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/EnsDb.Rnorvegicus.v79.html"><span class="BioC">EnsDb.Rnorvegicus.v79</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/EnsDb.Mmusculus.v79.html"><span class="BioC">EnsDb.Mmusculus.v79</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/AnnotationDbi.html"><span class="BioC">AnnotationDbi</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html"><span class="BioC">org.Hs.eg.db</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/org.Mm.eg.db.html"><span class="BioC">org.Mm.eg.db</span></a>, <a href="http://www.bioconductor.org/packages/release/data/annotation/html/org.Rn.eg.db.html"><span class="BioC">org.Rn.eg.db</span></a>, <a href="http://www.bioconductor.org/packages/release/bioc/html/GenomicFeatures.html"><span class="BioC">GenomicFeatures</span></a>, utils</td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-07-25</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Naim Al Mahi [cre, aut],
+  Mario Medvedovic [aut, ctb]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Naim Al Mahi  &#x3c;&#x6d;&#x61;&#x68;&#x69;&#x6e;&#x61;&#x20;&#x61;&#x74;&#x20;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x75;&#x63;&#x2e;&#x65;&#x64;&#x75;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/uc-bd2k/GREP2/issues">https://github.com/uc-bd2k/GREP2/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-3">GPL-3</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/uc-bd2k/GREP2">https://github.com/uc-bd2k/GREP2</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>SystemRequirements:</td>
+<td>SRAtoolkit, Salmon, Java, FastQC, MultiQC</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">GREP2 citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_GREP2.html">GREP2 results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package GREP2 downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="GREP2.pdf"> GREP2.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/vignette.html">Process GEO RNA-seq data using GREP2</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/GREP2_1.0.1.tar.gz"> GREP2_1.0.1.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/GREP2_1.0.1.zip">GREP2_1.0.1.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/GREP2_1.0.1.zip">GREP2_1.0.1.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/ReadMe">not available</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: not available, r-oldrel: not available </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/GREP2"> GREP2 archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=GREP2"><samp>https://CRAN.R-project.org/package=GREP2</samp></a>
+to link to this page.</p>
+</body>
+</html>

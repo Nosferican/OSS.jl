@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package lime</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Local Interpretable Model-Agnostic Explanations [R package lime version 0.4.1]" />
+<meta name="citation_author1" content="Thomas Lin Pedersen" />
+<meta name="citation_author2" content="Michaël Benesty" />
+<meta name="citation_publication_date.Published" content="2018-11-21" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=lime" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=lime" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>lime: Local Interpretable Model-Agnostic Explanations</h2>
+<p>When building complex models, it is often difficult to explain why
+    the model should be trusted. While global measures such as accuracy are
+    useful, they cannot be used for explaining why a model made a specific
+    prediction. 'lime' (a port of the 'lime' 'Python' package) is a method for
+    explaining the outcome of black box models by fitting a local model around
+    the point in question an perturbations of this point. The approach is
+    described in more detail in the article by Ribeiro et al. (2016) 
+    &lt;<a href="https://arxiv.org/abs/1602.04938">arXiv:1602.04938</a>&gt;.</p>
+<table summary="Package lime summary">
+<tr>
+<td>Version:</td>
+<td>0.4.1</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../glmnet/index.html">glmnet</a>, stats, <a href="../ggplot2/index.html">ggplot2</a>, tools, <a href="../stringi/index.html">stringi</a>, <a href="../Matrix/index.html">Matrix</a>, <a href="../Rcpp/index.html">Rcpp</a>, <a href="../assertthat/index.html">assertthat</a>, <a href="../htmlwidgets/index.html">htmlwidgets</a>, <a href="../shiny/index.html">shiny</a>, <a href="../shinythemes/index.html">shinythemes</a>, methods, grDevices, <a href="../gower/index.html">gower</a></td>
+</tr>
+<tr>
+<td>LinkingTo:</td>
+<td><a href="../Rcpp/index.html">Rcpp</a>, <a href="../RcppEigen/index.html">RcppEigen</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../xgboost/index.html">xgboost</a>, <a href="../testthat/index.html">testthat</a>, <a href="../mlr/index.html">mlr</a>, <a href="../h2o/index.html">h2o</a>, <a href="../text2vec/index.html">text2vec</a>, <a href="../MASS/index.html">MASS</a>, <a href="../covr/index.html">covr</a>, <a href="../knitr/index.html">knitr</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../devtools/index.html">devtools</a>, <a href="../magick/index.html">magick</a>, <a href="../keras/index.html">keras</a>, <a href="../ranger/index.html">ranger</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-11-21</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Thomas Lin Pedersen [cre, aut],
+  Michaël Benesty [aut]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Thomas Lin Pedersen  &#x3c;&#x74;&#x68;&#x6f;&#x6d;&#x61;&#x73;&#x70;&#x38;&#x35;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/thomasp85/lime/issues">https://github.com/thomasp85/lime/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://github.com/thomasp85/lime">https://github.com/thomasp85/lime</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_lime.html">lime results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package lime downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="lime.pdf"> lime.pdf </a> </td>
+</tr>
+<tr>
+<td>Vignettes:</td>
+<td>
+<a href="vignettes/Understanding_lime.html">Understanding lime</a><br/>
+</td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/lime_0.4.1.tar.gz"> lime_0.4.1.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/lime_0.4.1.zip">lime_0.4.1.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/lime_0.4.1.zip">lime_0.4.1.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/lime_0.4.1.zip">lime_0.4.1.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/lime_0.4.1.tgz">lime_0.4.1.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/lime_0.4.1.tgz">lime_0.4.1.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/lime"> lime archive </a> </td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=lime"><samp>https://CRAN.R-project.org/package=lime</samp></a>
+to link to this page.</p>
+</body>
+</html>

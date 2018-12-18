@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN - Package plotly</title>
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="citation_title" content="Create Interactive Web Graphics via 'plotly.js' [R package plotly version 4.8.0]" />
+<meta name="citation_author1" content="Carson Sievert" />
+<meta name="citation_author2" content="Chris Parmer" />
+<meta name="citation_author3" content="Toby Hocking" />
+<meta name="citation_author4" content="Scott Chamberlain" />
+<meta name="citation_author5" content="Karthik Ram" />
+<meta name="citation_author6" content="Marianne Corvellec" />
+<meta name="citation_author7" content="Pedro Despouy" />
+<meta name="citation_publication_date.Published" content="2018-07-20" />
+<meta name="citation_public_url" content="https://CRAN.R-project.org/package=plotly" />
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=plotly" />
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)" />
+<style type="text/css">
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<h2>plotly: Create Interactive Web Graphics via 'plotly.js'</h2>
+<p>Easily translate 'ggplot2' graphs to an interactive web-based version and/or create custom web-based visualizations directly from R. Once uploaded to a 'plotly' account, 'plotly' graphs (and the data behind them) can be viewed and modified in a web browser.</p>
+<table summary="Package plotly summary">
+<tr>
+<td>Version:</td>
+<td>4.8.0</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 3.2.0), <a href="../ggplot2/index.html">ggplot2</a> (&ge; 3.0.0)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td>tools, <a href="../scales/index.html">scales</a>, <a href="../httr/index.html">httr</a>, <a href="../jsonlite/index.html">jsonlite</a>, <a href="../magrittr/index.html">magrittr</a>, <a href="../digest/index.html">digest</a>, <a href="../viridisLite/index.html">viridisLite</a>, <a href="../base64enc/index.html">base64enc</a>, <a href="../htmltools/index.html">htmltools</a>, <a href="../htmlwidgets/index.html">htmlwidgets</a> (&ge; 1.2), <a href="../tidyr/index.html">tidyr</a>, <a href="../hexbin/index.html">hexbin</a>, <a href="../RColorBrewer/index.html">RColorBrewer</a>, <a href="../dplyr/index.html">dplyr</a>, <a href="../tibble/index.html">tibble</a>, <a href="../lazyeval/index.html">lazyeval</a> (&ge; 0.2.0), <a href="../rlang/index.html">rlang</a>, <a href="../crosstalk/index.html">crosstalk</a>, <a href="../purrr/index.html">purrr</a>, <a href="../data.table/index.html">data.table</a>, <a href="../promises/index.html">promises</a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../MASS/index.html">MASS</a>, <a href="../maps/index.html">maps</a>, <a href="../ggthemes/index.html">ggthemes</a>, <a href="../GGally/index.html">GGally</a>, <a href="../testthat/index.html">testthat</a>, <a href="../knitr/index.html">knitr</a>, <a href="../devtools/index.html">devtools</a>, <a href="../shiny/index.html">shiny</a> (&ge; 1.1.0), <a href="../curl/index.html">curl</a>, <a href="../rmarkdown/index.html">rmarkdown</a>, <a href="../Rserve/index.html">Rserve</a>, <a href="../RSclient/index.html">RSclient</a>, <a href="../Cairo/index.html">Cairo</a>, <a href="../broom/index.html">broom</a>, <a href="../webshot/index.html">webshot</a>, <a href="../listviewer/index.html">listviewer</a>, <a href="../dendextend/index.html">dendextend</a>, <a href="../sf/index.html">sf</a>, <a href="../maptools/index.html">maptools</a>, <a href="../rgeos/index.html">rgeos</a>, <a href="../png/index.html">png</a>, <a href="../IRdisplay/index.html">IRdisplay</a>, <a href="../processx/index.html">processx</a>, <a href="../plotlyGeoAssets/index.html">plotlyGeoAssets</a>, <a href="../forcats/index.html">forcats</a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2018-07-20</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Carson Sievert <a href="https://orcid.org/0000-0002-4958-2844"><img alt="ORCID iD" src="/web/orcid.svg" style="width:16px; height:16px; margin-left:4px; margin-right:4px; vertical-align:middle" /></a> [aut, cre],
+  Chris Parmer [aut],
+  Toby Hocking [aut],
+  Scott Chamberlain [aut],
+  Karthik Ram [aut],
+  Marianne Corvellec [aut],
+  Pedro Despouy [aut],
+  Plotly Technologies Inc. [cph]</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Carson Sievert  &#x3c;&#x63;&#x70;&#x73;&#x69;&#x65;&#x76;&#x65;&#x72;&#x74;&#x31;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/ropensci/plotly/issues">https://github.com/ropensci/plotly/issues</a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/MIT">MIT</a> + file <a href="LICENSE">LICENSE</a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://plot.ly/r">https://plot.ly/r</a>, <a href="https://cpsievert.github.io/plotly_book/">https://cpsievert.github.io/plotly_book/</a>,
+<a href="https://github.com/ropensci/plotly#readme">https://github.com/ropensci/plotly#readme</a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html">plotly citation info</a> </td>
+</tr>
+<tr>
+<td>Materials:</td>
+<td><a href="readme/README.html">README</a> <a href="news/news.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="../../views/WebTechnologies.html">WebTechnologies</a></td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_plotly.html">plotly results</a></td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table summary="Package plotly downloads">
+<tr>
+<td> Reference&nbsp;manual: </td>
+<td> <a href="plotly.pdf"> plotly.pdf </a> </td>
+</tr>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/plotly_4.8.0.tar.gz"> plotly_4.8.0.tar.gz </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/3.6/plotly_4.8.0.zip">plotly_4.8.0.zip</a>, r-release: <a href="../../../bin/windows/contrib/3.5/plotly_4.8.0.zip">plotly_4.8.0.zip</a>, r-oldrel: <a href="../../../bin/windows/contrib/3.4/plotly_4.8.0.zip">plotly_4.8.0.zip</a> </td>
+</tr>
+<tr>
+<td> OS&nbsp;X&nbsp;binaries: </td>
+<td> r-release: <a href="../../../bin/macosx/el-capitan/contrib/3.5/plotly_4.7.1.tgz">plotly_4.7.1.tgz</a>, r-oldrel: <a href="../../../bin/macosx/el-capitan/contrib/3.4/plotly_4.7.1.tgz">plotly_4.7.1.tgz</a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/plotly"> plotly archive </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table summary="Package plotly reverse dependencies">
+<tr>
+<td>Reverse&nbsp;depends:</td>
+<td><a href="../cdparcoord/index.html">cdparcoord</a>, <a href="../DynNom/index.html">DynNom</a>, <a href="../heatmaply/index.html">heatmaply</a>, <a href="../multichull/index.html">multichull</a>, <a href="../personalized/index.html">personalized</a>, <a href="../ProjectManagement/index.html">ProjectManagement</a>, <a href="../vistime/index.html">vistime</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../adapr/index.html">adapr</a>, <a href="../antaresViz/index.html">antaresViz</a>, <a href="../arulesViz/index.html">arulesViz</a>, <a href="../autoplotly/index.html">autoplotly</a>, <a href="../BayesianNetwork/index.html">BayesianNetwork</a>, <a href="../BETS/index.html">BETS</a>, <a href="../bridger2/index.html">bridger2</a>, <a href="../bulletr/index.html">bulletr</a>, <a href="../ChocoLattes/index.html">ChocoLattes</a>, <a href="../CNVScope/index.html">CNVScope</a>, <a href="../colordistance/index.html">colordistance</a>, <a href="../colorfindr/index.html">colorfindr</a>, <a href="../dartR/index.html">dartR</a>, <a href="../dendroTools/index.html">dendroTools</a>, <a href="../DEploid/index.html">DEploid</a>, <a href="../eAnalytics/index.html">eAnalytics</a>, <a href="../EcoGenetics/index.html">EcoGenetics</a>, <a href="../eechidna/index.html">eechidna</a>, <a href="../enpls/index.html">enpls</a>, <a href="../gamm4.test/index.html">gamm4.test</a>, <a href="../GenomicMating/index.html">GenomicMating</a>, <a href="../geomnet/index.html">geomnet</a>, <a href="../geoSpectral/index.html">geoSpectral</a>, <a href="../getTBinR/index.html">getTBinR</a>, <a href="../ggalt/index.html">ggalt</a>, <a href="../ggenealogy/index.html">ggenealogy</a>, <a href="../ggmosaic/index.html">ggmosaic</a>, <a href="../ggplotgui/index.html">ggplotgui</a>, <a href="../ggquickeda/index.html">ggquickeda</a>, <a href="../GMDH2/index.html">GMDH2</a>, <a href="../iMediate/index.html">iMediate</a>, <a href="../LumReader/index.html">LumReader</a>, <a href="../manhattanly/index.html">manhattanly</a>, <a href="../mapfuser/index.html">mapfuser</a>, <a href="../memapp/index.html">memapp</a>, <a href="../MendelianRandomization/index.html">MendelianRandomization</a>, <a href="../mgcViz/index.html">mgcViz</a>, <a href="../Miso/index.html">Miso</a>, <a href="../Modelcharts/index.html">Modelcharts</a>, <a href="../NormalizeMets/index.html">NormalizeMets</a>, <a href="../pcadapt/index.html">pcadapt</a>, <a href="../PCRedux/index.html">PCRedux</a>, <a href="../pingers/index.html">pingers</a>, <a href="../Plasmidprofiler/index.html">Plasmidprofiler</a>, <a href="../powdR/index.html">powdR</a>, <a href="../PPQplan/index.html">PPQplan</a>, <a href="../processmapR/index.html">processmapR</a>, <a href="../projector/index.html">projector</a>, <a href="../PSTR/index.html">PSTR</a>, <a href="../pterrace/index.html">pterrace</a>, <a href="../radiant.data/index.html">radiant.data</a>, <a href="../RBMRB/index.html">RBMRB</a>, <a href="../refund.shiny/index.html">refund.shiny</a>, <a href="../rENA/index.html">rENA</a>, <a href="../revtools/index.html">revtools</a>, <a href="../rPackedBar/index.html">rPackedBar</a>, <a href="../rrr/index.html">rrr</a>, <a href="../rsurface/index.html">rsurface</a>, <a href="../RtutoR/index.html">RtutoR</a>, <a href="../Seurat/index.html">Seurat</a>, <a href="../SGP/index.html">SGP</a>, <a href="../shinyHeatmaply/index.html">shinyHeatmaply</a>, <a href="../ShinyItemAnalysis/index.html">ShinyItemAnalysis</a>, <a href="../smoof/index.html">smoof</a>, <a href="../spectralAnalysis/index.html">spectralAnalysis</a>, <a href="../SPOT/index.html">SPOT</a>, <a href="../spotGUI/index.html">spotGUI</a>, <a href="../staRdom/index.html">staRdom</a>, <a href="../teachingApps/index.html">teachingApps</a>, <a href="../themetagenomics/index.html">themetagenomics</a>, <a href="../TSstudio/index.html">TSstudio</a>, <a href="../visdat/index.html">visdat</a>, <a href="../weibulltools/index.html">weibulltools</a>, <a href="../wilson/index.html">wilson</a>, <a href="../xROI/index.html">xROI</a>, <a href="../yuimaGUI/index.html">yuimaGUI</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;suggests:</td>
+<td><a href="../ActisoftR/index.html">ActisoftR</a>, <a href="../bs4Dash/index.html">bs4Dash</a>, <a href="../colorpatch/index.html">colorpatch</a>, <a href="../DataVisualizations/index.html">DataVisualizations</a>, <a href="../flacco/index.html">flacco</a>, <a href="../frailtyEM/index.html">frailtyEM</a>, <a href="../Hmisc/index.html">Hmisc</a>, <a href="../idbr/index.html">idbr</a>, <a href="../KRIG/index.html">KRIG</a>, <a href="../lmvar/index.html">lmvar</a>, <a href="../Luminescence/index.html">Luminescence</a>, <a href="../manipulateWidget/index.html">manipulateWidget</a>, <a href="../microsamplingDesign/index.html">microsamplingDesign</a>, <a href="../mlbgameday/index.html">mlbgameday</a>, <a href="../muHVT/index.html">muHVT</a>, <a href="../phenocamr/index.html">phenocamr</a>, <a href="../propr/index.html">propr</a>, <a href="../psycho/index.html">psycho</a>, <a href="../Rilostat/index.html">Rilostat</a>, <a href="../rms/index.html">rms</a>, <a href="../Rnightlights/index.html">Rnightlights</a>, <a href="../rwalkr/index.html">rwalkr</a>, <a href="../sugrrants/index.html">sugrrants</a>, <a href="../trelliscopejs/index.html">trelliscopejs</a>, <a href="../WVPlots/index.html">WVPlots</a>, <a href="../xpose/index.html">xpose</a></td>
+</tr>
+<tr>
+<td>Reverse&nbsp;enhances:</td>
+<td><a href="../plotlyGeoAssets/index.html">plotlyGeoAssets</a>, <a href="../repr/index.html">repr</a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=plotly"><samp>https://CRAN.R-project.org/package=plotly</samp></a>
+to link to this page.</p>
+</body>
+</html>
